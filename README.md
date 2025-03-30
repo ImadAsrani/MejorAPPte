@@ -63,11 +63,6 @@
 
 <img src="https://i.ibb.co/JzR4QW6/Screenshot-20241214-175032.jpg" width="230" height="500">
 <br>
-
-<img src="https://i.ibb.co/XFwpMpM/Screenshot-20241214-175048.jpg" width="230" height="500">
-
-<br>
-
 <img src="https://i.ibb.co/2hTttF5/Screenshot-20241214-175059.jpg" width="230" height="500">
 
 <br>
