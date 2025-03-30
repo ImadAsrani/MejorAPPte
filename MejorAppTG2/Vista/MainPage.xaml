@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MejorAppTG2.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MejorAppTG2.Modelo"
+    xmlns:local2="clr-namespace:MejorAppTG2.Localization"
+    xmlns:mdc="clr-namespace:Material.Components.Maui;assembly=Material.Components.Maui"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    Shell.BackgroundColor="White"
+    Shell.NavBarHasShadow="True">
+
+
+    <!--  ************************* SECCIÓN PARA MI ***********************  -->
+
+
+
+    <!--  Cambiamos el color de la status bar  -->
+
+    <ContentPage.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="White" StatusBarStyle="DarkContent" />
+    </ContentPage.Behaviors>
+
+    <!--  Cambiamos el color de barra superior de la APP  -->
+
+    <Shell.TitleView>
+
+
+        <Grid
+            Margin="0,0,20,0"
+            HeightRequest="100"
+            VerticalOptions="Fill">
+
+
+
+
+            <!--  Añadimos imagen por defecto de usuario en barra superior de la APP  -->
+
+            <!--  Añadimos imagen por defecto de usuario en barra superior de la APP  -->
+
+            <Border
+                x:Name="profileBorder"
+                Margin="0,0,0,0"
+                Background="White"
+                HeightRequest="38"
+                HorizontalOptions="End"
+                Stroke="#00BF70"
+                StrokeShape="RoundRectangle 80,80,80,80"
+                StrokeThickness="1.5"
+                WidthRequest="38">
+
+
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="openProfileOptions" />
+                </Border.GestureRecognizers>
+
+                <Image
+                    x:Name="imgProfile"
+                    Aspect="AspectFit"
+                    HeightRequest="35"
+                    HorizontalOptions="End"
+                    Source="Assets/profile.png" />
+
+
+
+
+            </Border>
+
+            <Label
+                x:Name="lblEstado"
+                Margin="0,0,0,0"
+                FontAttributes="Bold"
+                FontFamily="SF.OTF"
+                FontSize="18"
+                HorizontalOptions="Start"
+                Text="Hey!"
+                TextColor="Black"
+                VerticalTextAlignment="Center" />
+
+
+
+
+
+        </Grid>
+
+
+
+    </Shell.TitleView>
+
+    <!--  ************************* SECCIÓN PARA DIEGO ***********************  -->
+
+
+
+    <!--  Contenedor raiz  -->
+    <Grid
+        x:Name="gridPrincipal"
+        Padding="5,20,5,20"
+        VerticalOptions="FillAndExpand">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="480" />
+            <RowDefinition Height="230" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+
+        <!--  Carousel  -->
+        <CarouselView
+            x:Name="carouselView"
+            Grid.Row="0"
+            Loop="True">
+
+
+
+            <CarouselView.ItemsSource>
+                <x:Array Type="{x:Type local:CarouselItem}">
+                    <local:CarouselItem Description="{x:Static local2:AppResources.descripcion1Carrusel}" ImageSource="../Resources/Images/carruselfoto2.png" />
+                    <local:CarouselItem Description="{x:Static local2:AppResources.descripcion2Carrusel}" ImageSource="../Resources/Images/carruselfoto4.png" />
+                    <local:CarouselItem Description="{x:Static local2:AppResources.descripcion3Carrusel}" ImageSource="../Resources/Images/carruselfoto1.png" />
+                </x:Array>
+            </CarouselView.ItemsSource>
+
+            <CarouselView.ItemsLayout>
+                <LinearItemsLayout
+                    ItemSpacing="15"
+                    Orientation="Horizontal"
+                    SnapPointsAlignment="Center"
+                    SnapPointsType="MandatorySingle" />
+            </CarouselView.ItemsLayout>
+
+
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+
+                    <!--  Disenho del elemento del carrusel  -->
+                    <Grid HorizontalOptions="FillAndExpand" RowDefinitions="Auto,Auto">
+                        <!--  Imagen  -->
+
+                        <Border
+                            Margin="10"
+                            Stroke="#00BF70"
+                            StrokeShape="RoundRectangle 30"
+                            StrokeThickness="1">
+
+
+                            <Image
+                                Grid.Row="0"
+                                Aspect="AspectFill"
+                                HorizontalOptions="FillAndExpand"
+                                Source="{Binding ImageSource}"
+                                VerticalOptions="FillAndExpand" />
+
+
+                            <Border.Shadow>
+                                <Shadow
+                                    Brush="Black"
+                                    Opacity="0.4"
+                                    Radius="30"
+                                    Offset="0,1" />
+                            </Border.Shadow>
+                        </Border>
+
+                        <!--  Descripcion  -->
+
+
+
+                        <Label
+                            Grid.Row="1"
+                            Padding="16"
+                            FontFamily="SFL.OTF"
+                            FontSize="18"
+                            HorizontalTextAlignment="Center"
+                            Text="{Binding Description}"
+                            TextColor="Black" />
+
+
+                    </Grid>
+
+
+
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+
+        <!--  Seccion de Boton de Registro  que solo aparecera cuando no haya guardado ningun usuario  -->
+
+        <ScrollView
+            x:Name="scvPrincipal"
+            Grid.Row="1"
+            Margin="0,0,0,0"
+            Padding="10"
+            HorizontalOptions="CenterAndExpand"
+            HorizontalScrollBarVisibility="Never"
+            Orientation="Horizontal">
+
+            <Grid x:Name="gridrectest" HorizontalOptions="CenterAndExpand">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Border
+                    x:Name="rectest1"
+                    Grid.Column="0"
+                    Margin="10"
+                    Background="Orange"
+                    HeightRequest="200"
+                    IsVisible="False"
+                    StrokeShape="RoundRectangle 15"
+                    StrokeThickness="0"
+                    WidthRequest="180">
+
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="animarTestSeleccionado" />
+                    </Border.GestureRecognizers>
+
+
+                    <Grid>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="70" />
+                            <RowDefinition />
+                            <RowDefinition Height="40" />
+                        </Grid.RowDefinitions>
+
+                        <Rectangle
+                            Grid.Row="0"
+                            Margin="200,160,0,0"
+                            BackgroundColor="#ffb129"
+                            HeightRequest="120"
+                            Rotation="20"
+                            WidthRequest="120" />
+                        <Rectangle
+                            Grid.Row="0"
+                            Margin="40,120,0,0"
+                            BackgroundColor="#ffb129"
+                            HeightRequest="120"
+                            Rotation="150"
+                            WidthRequest="120" />
+                        <Label
+                            Grid.Row="0"
+                            Padding="10,10,0,0"
+                            FontFamily="SF.OTF"
+                            FontSize="14"
+                            Text="{x:Static local2:AppResources.TituloTAliment}"
+                            TextColor="White" />
+                        <mdc:ProgressIndicator
+                            x:Name="progresoTestAlimentacion"
+                            Grid.Row="2"
+                            Margin="120,0,10,25"
+                            ActiveIndicatorColor="Orange"
+                            ActiveIndicatorHeight="4"
+                            BackgroundColor="White"
+                            HorizontalOptions="Center"
+                            Percent="86" />
+                        <Label
+                            x:Name="progresoTestAlimentacionNumero"
+                            Grid.Row="2"
+                            Padding="132,-2,22,0"
+                            FontFamily="SF.OTF"
+                            FontSize="12"
+                            HorizontalOptions="Center"
+                            Text="86"
+                            TextColor="Orange" />
+
+
+                    </Grid>
+
+                    <Border.Shadow>
+                        <Shadow
+                            Brush="Black"
+                            Opacity="0.4"
+                            Radius="10"
+                            Offset="0,1" />
+                    </Border.Shadow>
+                </Border>
+
+                <Border
+                    x:Name="rectest2"
+                    Grid.Column="1"
+                    Margin="10"
+                    Background="#1c73ff"
+                    HeightRequest="200"
+                    IsVisible="False"
+                    StrokeShape="RoundRectangle 15"
+                    StrokeThickness="0"
+                    WidthRequest="180">
+
+
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="animarTestSeleccionado" />
+                    </Border.GestureRecognizers>
+
+
+
+                    <Grid>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="70" />
+                            <RowDefinition />
+                            <RowDefinition Height="40" />
+                        </Grid.RowDefinitions>
+
+                        <Rectangle
+                            Grid.Row="0"
+                            Margin="200,160,0,0"
+                            BackgroundColor="#2676ff"
+                            HeightRequest="120"
+                            Rotation="20"
+                            WidthRequest="120" />
+                        <Rectangle
+                            Grid.Row="0"
+                            Margin="40,120,0,0"
+                            BackgroundColor="#2676ff"
+                            HeightRequest="120"
+                            Rotation="150"
+                            WidthRequest="120" />
+
+                        <Label
+                            Grid.Row="0"
+                            Padding="10,10,0,0"
+                            FontFamily="SF.OTF"
+                            FontSize="14"
+                            Text="{x:Static local2:AppResources.TituloTARap}"
+                            TextColor="White" />
+                        <mdc:ProgressIndicator
+                            x:Name="progresoTestCorto"
+                            Grid.Row="2"
+                            Margin="120,0,10,25"
+                            ActiveIndicatorColor="#2676ff"
+                            ActiveIndicatorHeight="4"
+                            BackgroundColor="White"
+                            HorizontalOptions="Center"
+                            Percent="100" />
+                        <Label
+                            x:Name="progresoTestCortoNumero"
+                            Grid.Row="2"
+                            Padding="132,-2,22,0"
+                            FontFamily="SF.OTF"
+                            FontSize="12"
+                            HorizontalOptions="Center"
+                            Text="100"
+                            TextColor="#2676ff" />
+
+
+                    </Grid>
+
+
+
+                    <Border.Shadow>
+                        <Shadow
+                            Brush="Black"
+                            Opacity="0.4"
+                            Radius="10"
+                            Offset="0,1" />
+                    </Border.Shadow>
+                </Border>
+
+
+                <Border
+                    x:Name="rectest3"
+                    Grid.Column="2"
+                    Margin="10"
+                    Background="#00BF70"
+                    HeightRequest="200"
+                    IsVisible="False"
+                    StrokeShape="RoundRectangle 15"
+                    StrokeThickness="0"
+                    WidthRequest="180">
+
+
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="animarTestSeleccionado" />
+                    </Border.GestureRecognizers>
+
+                    <Grid>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="70" />
+                            <RowDefinition />
+                            <RowDefinition Height="40" />
+                        </Grid.RowDefinitions>
+
+                        <Rectangle
+                            Grid.Row="0"
+                            Margin="200,160,0,0"
+                            BackgroundColor="#00b365"
+                            HeightRequest="120"
+                            Rotation="20"
+                            WidthRequest="120" />
+                        <Rectangle
+                            Grid.Row="0"
+                            Margin="40,120,0,0"
+                            BackgroundColor="#00b365"
+                            HeightRequest="120"
+                            Rotation="150"
+                            WidthRequest="120" />
+                        <Label
+                            Grid.Row="0"
+                            Padding="10,10,0,0"
+                            FontFamily="SF.OTF"
+                            FontSize="14"
+                            Text="{x:Static local2:AppResources.TituloTACompl}"
+                            TextColor="White" />
+                        <mdc:ProgressIndicator
+                            x:Name="progresoTestLargo"
+                            Grid.Row="2"
+                            Margin="120,0,10,25"
+                            ActiveIndicatorColor="#00b365"
+                            ActiveIndicatorHeight="4"
+                            BackgroundColor="White"
+                            HorizontalOptions="Center"
+                            Percent="100" />
+                        <Label
+                            x:Name="progresoTestLargoNumero"
+                            Grid.Row="2"
+                            Padding="132,-2,22,0"
+                            FontFamily="SF.OTF"
+                            FontSize="12"
+                            HorizontalOptions="Center"
+                            Text="45"
+                            TextColor="#00b365" />
+
+
+                    </Grid>
+
+                    <Border.Shadow>
+                        <Shadow
+                            Brush="Black"
+                            Opacity="0.4"
+                            Radius="10"
+                            Offset="0,1" />
+                    </Border.Shadow>
+                </Border>
+
+
+            </Grid>
+
+
+
+        </ScrollView>
+
+
+
+        <Button
+            x:Name="btnEmpezar"
+            Grid.Row="2"
+            Margin="0,10"
+            BackgroundColor="#00BF70"
+            Clicked="GoToRegister"
+            CornerRadius="10"
+            FontFamily="SF.OTF"
+            FontSize="16"
+            HeightRequest="50"
+            Text="{x:Static local2:AppResources.btnStart}"
+            TextColor="White"
+            VerticalOptions="End"
+            WidthRequest="330">
+            <Button.Shadow>
+                <Shadow
+                    Brush="Black"
+                    Opacity="0.2"
+                    Radius="20"
+                    Offset="0,6" />
+            </Button.Shadow>
+        </Button>
+
+
+
+
+    </Grid>
+
+</ContentPage>

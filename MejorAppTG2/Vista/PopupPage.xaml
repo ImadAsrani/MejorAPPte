@@ -1,0 +1,102 @@
+<toolkit:Popup
+    x:Class="MejorAppTG2.Vista.PopupPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MejorAppTG2.Localization"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    Color="Transparent">
+
+    <Grid Padding="30" BackgroundColor="Transparent">
+
+        <Border
+            x:Name="miPop"
+            Background="White"
+            HeightRequest="220"
+            HorizontalOptions="CenterAndExpand"
+            Stroke="#00000000"
+            StrokeShape="{RoundRectangle CornerRadius=30}"
+            VerticalOptions="EndAndExpand"
+            WidthRequest="340">
+
+            <Border.Shadow>
+                <Shadow Opacity="0.7" Radius="10" />
+            </Border.Shadow>
+
+            <Grid
+                Padding="20"
+                RowSpacing="10"
+                VerticalOptions="CenterAndExpand">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Label
+                    x:Name="lblTitulo"
+                    Grid.Row="0"
+                    Padding="10,0,0,0"
+                    FontFamily="SF.OTF"
+                    FontSize="20" />
+                <Label
+                    x:Name="lblCuerpo"
+                    Grid.Row="1"
+                    Padding="10,0,0,0"
+                    FontFamily="SFL.OTF"
+                    FontSize="16"
+                    TextColor="Gray" />
+
+                <Grid
+                    Grid.Row="2"
+                    Padding="0,5,0,0"
+                    VerticalOptions="End">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="85" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+
+                    <Button
+                        x:Name="btnCancelar"
+                        Grid.Column="1"
+                        Background="White"
+                        BorderColor="#00BF70"
+                        BorderWidth="2"
+                        Clicked="cerrarPopup"
+                        CornerRadius="100"
+                        FontFamily="SFL.OTF"
+                        HeightRequest="40"
+                        Text="{x:Static local:AppResources.Cancelar}"
+                        TextColor="#00BF70"
+                        WidthRequest="95" />
+                    <Button
+                        Grid.Column="2"
+                        Background="#00BF70"
+                        Clicked="aceptarBorrarDatos"
+                        CornerRadius="100"
+                        FontFamily="SFL.OTF"
+                        HeightRequest="40"
+                        Text="{x:Static local:AppResources.Confirmar}"
+                        WidthRequest="100" />
+
+
+                </Grid>
+
+
+            </Grid>
+
+
+
+
+        </Border>
+    </Grid>
+
+</toolkit:Popup>
+
+
+
+
+

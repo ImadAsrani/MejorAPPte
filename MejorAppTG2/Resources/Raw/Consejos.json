@@ -1,0 +1,163 @@
+[
+    {
+        "id": 1,
+        "titulo": "Todos pasamos por eso",
+        "descripcion": "A pesar de que algunas veces te encuentres más nervioso/a de lo habitual, tu respuesta ante estas situaciones es adecuada y está dentro de lo normal. Sigue así."
+    },
+    {
+        "id": 2,
+        "titulo": "El lado oscuro de la concentración",
+        "descripcion": "Una ansiedad moderada puede ayudarnos a mantenernos concentrados en el estudio, siempre que no se mantenga de manera sostenida en el tiempo, ya que puede dar lugar a quedar fuera de nuestro control."
+    },
+    {
+        "id": 3,
+        "titulo": "Bajo control... por ahora.",
+        "descripcion": "Tus niveles de ansiedad se sitúan dentro del límite de la normalidad. \n Pero tienes que tener cuidado y seguir observando la sintomatología para evitar que la situación te sobrepase."
+    },
+    {
+        "id": 4,
+        "titulo": "La ansiedad no es tu amiga.",
+        "descripcion": "Tienes unos niveles de ansiedad demasiado altos. Es importante que aprendas a gestionar esa emoción ya que estos niveles pueden dar lugar a problemas emocionales y de salud importantes."
+    },
+    {
+        "id": 5,
+        "titulo": "Acepta la incertidumbre",
+        "descripcion": "Acepta que no sabes todo y que es normal sentir dudas ante un examen, esto te ayudará a no sobrecargarte."
+    },
+    {
+        "id": 6,
+        "titulo": "Piensa positivamente",
+        "descripcion": "Trata de mantener una actitud positiva y enfócate en todas las cosas que has aprendido en lugar de preocuparte por lo que no sabes."
+    },
+    {
+        "id": 7,
+        "titulo": "Identifica tus pensamientos tóxicos",
+        "descripcion": "Identifica estos pensamientos sobre los exámenes, como \"No voy a aprobar\", \"Soy un fracaso\", etc., te ayudará a cambiarlos."
+    },
+    {
+        "id": 8,
+        "titulo": "Bloquea y cambia tus pensamientos negativos",
+        "descripcion": "Ante un pensamiento negativo di “Para” o “Stop” y trata de ver la situación desde una perspectiva más objetiva, esto te ayudará a ver la realidad de la situación."
+    },
+    {
+        "id": 9,
+        "titulo": "Empodérate",
+        "descripcion": "Estas sencillas posturas corporales dan seguridad y confianza al instante. Ver vídeo https://www.youtube.com/shorts/jnOfzrDZYrA"
+    },
+    {
+        "id": 10,
+        "titulo": "Acepta la ansiedad",
+        "descripcion": "Tener ansiedad de manera puntual es normal y nos puede ayudar a estar más concentrados. \nNo es un peligro para ti."
+    },
+    {
+        "id": 11,
+        "titulo": "Dialoga contigo mismo",
+        "descripcion": "Lee despacio este texto cuando tengas un ataque de ansiedad: “Todos estos síntomas que estás sintiendo ahora mismo, aunque sean desagradables, NO SON PELIGROSOS, NO VAS A MORIR, NI VAS A PERDER EL CONTROL DE TU RESPIRACIÓN.\nEsta crisis que estás sintiendo tiene un inicio, un pico máximo y un final. \nEsto quiere decir que hagas lo que hagas, va a terminar, aunque tú no hagas nada.\n Así que evita intentar controlar o luchar contra ella, eso lo empeorará. En vez de eso, escucha a tu cuerpo e intenta ponerle nombre a todo lo que estás sintiendo ahora mismo.\n Es tu cuerpo y la respuesta psicofisiológica que se desencadena cuando cree que está en peligro.\n Por lo tanto, son reacciones normales en mi cuerpo y no va a suceder algo terrible. ASÍ QUE RECUERDA: NO ESTÁS EN PELIGRO Y EN UNOS MINUTOS PASARÁ”."
+    },
+    {
+        "id": 12,
+        "titulo": "Cambia tu foco atencional",
+        "descripcion": "Piensa o escribe: \n 5 cosas que puedas ver en este momento;\n 4 cosas que puedas tocar; \n 3 cosas que puedas escuchar;\n 2 cosas que puedas oler;\n 1 cosa que puedas saborear."
+    },
+    {
+        "id": 13,
+        "titulo": "Establece una rutina",
+        "descripcion": "Crea una rutina previa al examen, da seguridad y confianza. \n Ejemplo: siéntate, prepara los bolígrafos, y haz tres inspiraciones lentas y profundas mientras piensas la frase “puedo con todo”."
+    },
+    {
+        "id": 14,
+        "titulo": "Practica técnicas de relajación",
+        "descripcion": "Practica técnicas de relajación. \n Te puede ayudar a reducir la ansiedad y mejorar la capacidad de afrontar situaciones de examen. \n ¿Quieres conocerlas? Mira los tres videos de arriba y desliza para ver los demas"
+    },
+    {
+        "id": 15,
+        "titulo": "Usa metáforas",
+        "descripcion": "Lee despacio la siguiente metáfora: “imagina que estás en el mar, un sitio aparentemente tranquilo, y de repente, aparece una gran ola. \n Cuando se acerca nos da miedo y por instinto nos alejamos de ella, pero al alejarnos, la ola se vuelve más fuerte y atemorizante y aparentemente sigue persiguiéndonos.\n Mientras más te alejas de la ola, más grande se vuelve y terminará siendo más fuerte cuanto más te alejes. En cambio, si no evitas a la ola, el atropello será fuerte al principio, pero luego te secarás y seguirás disfrutando del mar. Si viene otra ola gigante, y sigues sin evitarla, sin duda será cada vez menor el atropello y el daño. \n Muchas veces los problemas son exactamente igual; nuestros pensamientos, recuerdos o emociones son desagradables de inicio, pero si huimos de ellos, lo único que haremos es hacerlos más grandes y darles más importancia. Sin embargo, si no los evitamos y, al contrario, los aceptamos tal cual son, aunque al inicio nos atormenten un poco, al final se volverán cotidianos y menor importantes, permitiéndonos ser más flexibles y permisivos con nosotros mismos”."
+    },
+    {
+        "id": 16,
+        "titulo": "Identifica, bloquea y cambia",
+        "descripcion": "Identifica los pensamientos tóxicos sobre los exámenes, como \"No voy a aprobar\", \"Soy un fracaso\".\n Bloquea esos pensamientos, di “Para” o “Stop”. Trata de ver la situación desde una perspectiva más objetiva, esto te ayudará a ver la realidad de la situación."
+    },
+    {
+        "id": 17,
+        "titulo": "Estudia todos los días",
+        "descripcion": "Estudia con mayor frecuencia, en lugar de dedicar más tiempo. Espacia las sesiones de estudio de un mismo tema.\n No te des el atracón solo el día anterior, corres el riesgo de bloquearte y quedarte en blanco."
+    },
+    {
+        "id": 18,
+        "titulo": "Organízate",
+        "descripcion": "Lleva al día tu agenda. Prepara un horario de estudio y sigue un plan para cubrir todas las materias.\n Revisa tus técnicas de estudio (pregunta a tu orientador/a si tienes dudas). Resuelve con tu profesor todas las dudas de la materia."
+    },
+    {
+        "id": 19,
+        "titulo": "Cuida tus hábitos",
+        "descripcion": "Duerme lo suficiente, sobre todo el día antes del examen (es necesario para una buena concentración); haz ejercicio físico; sigue una dieta equilibrada y saludable (evita las bebidas energizantes y el alcohol)."
+    },
+    {
+        "id": 20,
+        "titulo": "Busca apoyo",
+        "descripcion": "Habla con un amigo, familiar o profesor sobre tus preocupaciones y busca su apoyo."
+    },
+    {
+        "id": 21,
+        "titulo": "Busca ayuda profesional",
+        "descripcion": "Si no puedes controlar tu estado de ansiedad y está afectando tu vida diaria, busca ayuda profesional."
+    },
+    {
+        "id": 22,
+        "titulo": "Practica la autoobservación",
+        "descripcion": "Fíjate y apunta en qué momentos tienes ansiedad y estudia el porqué, eso te ayuda a saber cuáles son tus disparadores (varios exámenes la misma semana, por ejemplo) y anteponte a esa ansiedad: Cuándo ha pasado: El lunes al ver que tengo 3 exámenes. Qué estoy sintiendo: Ansiedad, me cuesta respirar... Ahora veo la situación desde fuera (como en los videojuegos de tercera persona) y la explicas. Qué puedo hacer para afrontar la situación: enfócate en un examen y cuando termines con otro...; ayúdate de técnicas de respiración y relajación…"
+    },
+    {
+        "id": 23,
+        "titulo": "Haz un plan que puedas cumplir",
+        "descripcion": "Si evitas exámenes o ir a clase o estudiar debido a tu ansiedad, establece metas alcanzables."
+    },
+    {
+        "id": 24,
+        "titulo": "Poco a poco",
+        "descripcion": "Empieza por lo más sencillo (estudiar en casa), sigue con asistencia a clase; ve con confianza al examen."
+    },
+    {
+        "id": 25,
+        "titulo": "No se requiere intervención clínica, pero es importante seguir vigilando si surgen cambios en los hábitos alimentarios",
+        "descripcion": "Aunque no estás en riesgo, pensamos sería buena idea que te mantengas alerta por si la relación con la comida cambia.\n Enhorabuena! Parece que tienes una relación equilibrada con la comida, sigue así."
+    },
+    {
+        "id": 26,
+        "titulo": "Evaluación exploratoria y seguimiento preventivo. La persona muestra preocupaciones alimentarias moderadas.",
+        "descripcion": "Pensamos que la relación con la comida te preocupa en base a tus hábitos alimenticios y emociones que te provoca.\n Sería muy buena idea que hablaras de este tema con alguien de tu entorno, con criterio y experiencia, con el que tengas confianza."
+    },
+    {
+        "id": 27,
+        "titulo": "Evaluación clínica adicional. Existe un riesgo significativo de trastornos alimentarios",
+        "descripcion": "Muchas gracias por usar esta app, no olvides que esto es meramente orientativo, te recomendamos que hables con un profesional de la salud o un consejero para abordar cualquier preocupación que puedas tener sobre tus hábitos alimenticios.\n Hay indicios de que puedes desarrollar un trastorno de la alimentación."
+    },
+    {
+        "id": 28,
+        "titulo": "Evaluación clínica urgente. Indica actitudes alimentarias peligrosas y comportamientos inadecuados.",
+        "descripcion": "Tu relación con la comida no es saludable. Por favor consulta con un especialista médico lo más rápido posible para que te pueda brindar su ayuda. "
+    },
+
+    {
+        "id": 29,
+        "titulo": " Técnica ho'oponopono .",
+        "descripcion": "Esta técnica hawaiana busca limpiar memorias y emociones negativas que puedan afectar a nuestras vidas."
+
+    },
+
+    {
+        "id": 30,
+        "titulo": " Vídeo de meditación .",
+        "descripcion": ""
+
+    },
+    {
+        "id": 31,
+        "titulo": " Música de ambiente creada por nuestro alumnado..",
+        "descripcion": "Aconsejada para cualquiera de las meditaciones de otros consejos"
+
+    }
+
+]

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MejorAppTG2.Vista.HistoryTest"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MejorAppTG2.Localization"
+    xmlns:maui="clr-namespace:epj.CircularGauge.Maui;assembly=epj.CircularGauge.Maui"
+    Title="FoodTest"
+    BackgroundColor="#00000000">
+
+    <Grid Padding="5,60,5,5">
+
+
+        <Border
+            Padding="0,0,0,0"
+            Background="White"
+            IsVisible="true"
+            Stroke="#00000000"
+            StrokeShape="{RoundRectangle CornerRadius='30,30,30,30'}">
+
+            <Border.Shadow>
+                <Shadow Opacity="0.5" Radius="100" />
+            </Border.Shadow>
+
+
+            <Grid
+                Padding="20"
+                HorizontalOptions="Center"
+                VerticalOptions="FillAndExpand">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="80" />
+                </Grid.RowDefinitions>
+
+
+                <Label
+                    Grid.Row="0"
+                    Padding="0,10,0,20"
+                    FontFamily="SF.OTF"
+                    FontSize="20"
+                    HorizontalTextAlignment="Center"
+                    Text="{x:Static local:AppResources.TestRealizados}" />
+
+
+                <ScrollView Grid.Row="1" VerticalScrollBarVisibility="Never">
+
+                    <Grid
+                        x:Name="gridHistorial"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="Start" />
+
+
+                </ScrollView>
+
+
+
+                <Button
+                    Grid.Row="2"
+                    Margin="0,20,0,0"
+                    BackgroundColor="#00BF70"
+                    Clicked="accionCerrar"
+                    CornerRadius="10"
+                    FontFamily="SF.OTF"
+                    FontSize="16"
+                    HeightRequest="50"
+                    Text="{x:Static local:AppResources.Volver}"
+                    TextColor="White"
+                    VerticalOptions="End"
+                    WidthRequest="320" />
+
+
+
+
+
+
+            </Grid>
+
+
+
+
+        </Border>
+    </Grid>
+
+
+</ContentPage>

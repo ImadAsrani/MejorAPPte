@@ -1,0 +1,161 @@
+[
+    {
+        "id": 1,
+        "titulo": "We All Go Through It",
+        "descripcion": "Even though you may sometimes feel more nervous than usual, your response to these situations is appropriate and normal. Keep it up."
+    },
+    {
+        "id": 2,
+        "titulo": "The Dark Side of Concentration",
+        "descripcion": "Moderate anxiety can help us stay focused on studying, as long as it doesn't last too long, because it can eventually get out of control."
+    },
+    {
+        "id": 3,
+        "titulo": "Under Control... For Now",
+        "descripcion": "Your anxiety levels are within the normal range. However, you need to be careful and keep monitoring your symptoms to prevent the situation from getting out of hand."
+    },
+    {
+        "id": 4,
+        "titulo": "Anxiety Is Not Your Friend",
+        "descripcion": "Your anxiety levels are too high. It's important to learn how to manage this emotion as these levels could lead to significant emotional and health problems."
+    },
+    {
+        "id": 5,
+        "titulo": "Embrace Uncertainty",
+        "descripcion": "Accept that you don't know everything and that it's normal to feel doubts before an exam;\n this will help you avoid overloading yourself."
+    },
+    {
+        "id": 6,
+        "titulo": "Think Positively",
+        "descripcion": "Try to maintain a positive attitude and focus on all the things you've learned instead of worrying about what you don't know."
+    },
+    {
+        "id": 7,
+        "titulo": "Identify Your Toxic Thoughts",
+        "descripcion": "Identify thoughts about exams like 'I won’t pass,' 'I'm a failure,' etc.\n This will help you change them."
+    },
+    {
+        "id": 8,
+        "titulo": "Block and Change Negative Thoughts",
+        "descripcion": "When facing a negative thought, say 'Stop' or 'Pause' and try to see the situation from a more objective perspective.\n This will help you see the reality of the situation."
+    },
+    {
+        "id": 9,
+        "titulo": "Empower Yourself",
+        "descripcion": "These simple body postures instantly provide security and confidence. Watch the video https://www.youtube.com/shorts/jnOfzrDZYrA"
+    },
+    {
+        "id": 10,
+        "titulo": "Accept Anxiety",
+        "descripcion": "Having anxiety occasionally is normal and can help you stay more focused. It's not a danger to you."
+    },
+    {
+        "id": 11,
+        "titulo": "Talk to Yourself",
+        "descripcion": "Read this text slowly when you have an anxiety attack: 'All the symptoms you are feeling right now, even though unpleasant, ARE NOT DANGEROUS, YOU WON’T DIE, NOR WILL YOU LOSE CONTROL OF YOUR BREATHING. \n This crisis you are feeling has a start, a peak, and an end. This means that whatever you do, it will end, even if you do nothing. So avoid trying to control or fight it, that will make it worse. Instead, listen to your body and try to name everything you are feeling right now. \n It’s your body and the psychophysiological response that occurs when it believes it’s in danger. Therefore, these are normal reactions in my body, and nothing terrible is going to happen. SO REMEMBER: YOU ARE NOT IN DANGER AND IN A FEW MINUTES, IT WILL PASS.'"
+    },
+    {
+        "id": 12,
+        "titulo": "Change Your Focus of Attention",
+        "descripcion": "Think or write: 5 things you can see right now; 4 things you can touch; 3 things you can hear; 2 things you can smell; 1 thing you can taste."
+    },
+    {
+        "id": 13,
+        "titulo": "Establish a Routine",
+        "descripcion": "Create a pre-exam routine to provide security and confidence. Example: sit down, prepare your pens, and take three slow, deep breaths while thinking the phrase 'I can handle anything.'"
+    },
+    {
+        "id": 14,
+        "titulo": "Practice Relaxation Techniques",
+        "descripcion": "Practice relaxation techniques. They can help reduce anxiety and improve your ability to handle exam situations. \n Want to know more? Watch the three videos above and swipe to see more."
+    },
+    {
+        "id": 15,
+        "titulo": "Use Metaphors",
+        "descripcion": "Read this metaphor slowly: 'Imagine you are in the sea, a seemingly calm place, and suddenly a big wave appears. \n As it approaches, it scares us, and by instinct, we move away from it, but by doing so, the wave becomes stronger and scarier, seemingly chasing us. The more you move away from the wave, the bigger it gets, and it will be stronger the further you move away. However, if you don’t avoid the wave, the impact will be strong at first, but then you’ll dry off and continue enjoying the sea. \n If another giant wave comes, and you still don’t avoid it, the impact will surely be smaller each time. Often, problems are the same way; our thoughts, memories, or emotions are unpleasant at first, but if we run from them, all we do is make them bigger and give them more importance. However, if we don’t avoid them and, on the contrary, accept them as they are, even if they torment us a little at first, they will eventually become everyday occurrences and less important, allowing us to be more flexible and permissive with ourselves.'"
+    },
+    {
+        "id": 16,
+        "titulo": "Identify, Block, and Change",
+        "descripcion": "Identify toxic thoughts about exams, like 'I won’t pass,' 'I’m a failure.' Block those thoughts, say 'Stop' or 'Pause.' \n Try to see the situation from a more objective perspective, this will help you see the reality of the situation."
+    },
+    {
+        "id": 17,
+        "titulo": "Study Every Day",
+        "descripcion": "Study things more times, not more hours. Space out study sessions on the same topic. \n Don't cram the night before; you risk blocking and blanking out."
+    },
+    {
+        "id": 18,
+        "titulo": "Get Organized",
+        "descripcion": "Keep your schedule up to date. Set a study timetable and follow a plan to cover all subjects. Review your study techniques (ask your counselor if you have doubts).\n Resolve any subject doubts with your teacher."
+    },
+    {
+        "id": 19,
+        "titulo": "Take Care of Your Habits",
+        "descripcion": "Get enough sleep, especially the day before the exam (it's necessary for good concentration); exercise; follow a balanced and healthy diet (avoid energy drinks and alcohol)."
+    },
+    {
+        "id": 20,
+        "titulo": "Seek Support",
+        "descripcion": "Talk to a friend, family member, or teacher about your concerns and seek their support."
+    },
+    {
+        "id": 21,
+        "titulo": "Seek Professional Help",
+        "descripcion": "If you can’t control your anxiety and it's affecting your daily life, seek professional help."
+    },
+    {
+        "id": 22,
+        "titulo": "Practice Self-Observation",
+        "descripcion": "Observe and note when you feel anxiety and study why. This will help you understand your triggers (e.g., multiple exams in the same week) and anticipate that anxiety: When it happened: Monday when I saw I had 3 exams.\n What I’m feeling: Anxiety, difficulty breathing... Now I view the situation from the outside (like in third-person video games) and explain it. What can I do to cope: Focus on one exam, then move on to another...; use breathing and relaxation techniques."
+    },
+    {
+        "id": 23,
+        "titulo": "Make a Plan You Can Follow",
+        "descripcion": "If you avoid exams, class, or studying because of anxiety, set achievable goals."
+    },
+    {
+        "id": 24,
+        "titulo": "Step by Step",
+        "descripcion": "Start with the easiest task (studying at home), then attend classes; go into the exam with confidence."
+    },
+    {
+        "id": 25,
+        "titulo": "No Clinical Intervention Required, But Monitor Changes in Eating Habits",
+        "descripcion": "Although you are not at risk, we think it would be a good idea for you to stay alert in case your relationship with food changes. Congratulations! It seems you have a balanced relationship with food, keep it up."
+    },
+    {
+        "id": 26,
+        "titulo": "Exploratory Evaluation and Preventive Monitoring. The Person Shows Moderate Food Concerns.",
+        "descripcion": "We think your relationship with food concerns you based on your eating habits and the emotions it triggers. It would be a good idea to talk about this with someone you trust, who has experience and expertise."
+    },
+    {
+        "id": 27,
+        "titulo": "Additional Clinical Evaluation. Significant Risk of Eating Disorders",
+        "descripcion": "Thank you for using this app, remember this is purely advisory. We recommend you speak with a healthcare professional or counselor to address any concerns you may have about your eating habits. \n There are signs that you may develop an eating disorder."
+    },
+    {
+        "id": 28,
+        "titulo": "Urgent Clinical Evaluation. Indicates Dangerous Eating Attitudes and Inappropriate Behaviors",
+        "descripcion": "Your relationship with food is unhealthy. Please consult a medical specialist as soon as possible so they can offer you help."
+    },
+    {
+        "id": 29,
+        "titulo": " Ho'oponopono technique .",
+        "descripcion": "This Hawaiian technique seeks to cleanse negative memories and emotions that may affect our lives."
+
+    },
+
+    {
+        "id": 30,
+        "titulo": " Meditation video .",
+        "descripcion": ""
+
+    },
+    {
+        "id": 31,
+        "titulo": " Ambient music created by our students..",
+        "descripcion": "Recommended for any of the meditations in other tips"
+
+    }
+]

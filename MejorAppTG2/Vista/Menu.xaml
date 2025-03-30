@@ -1,0 +1,195 @@
+
+<ContentPage
+    x:Class="MejorAppTG2.Vista.Menu"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ios="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;assembly=Microsoft.Maui.Controls"
+    xmlns:local="clr-namespace:MejorAppTG2.Localization"
+    xmlns:mdc="clr-namespace:Material.Components.Maui;assembly=Material.Components.Maui"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    Title="Menu"
+    ios:Page.ModalPresentationStyle="OverFullScreen"
+    BackgroundColor="#00000000"
+    Shell.NavBarHasShadow="True">
+
+    <Grid Padding="3,0,3,3">
+        <Border
+            x:Name="borderMenu"
+            Padding="0,0,0,20"
+            Background="White"
+            HeightRequest="380"
+            HorizontalOptions="Fill"
+            IsVisible="true"
+            Stroke="#00000000"
+            StrokeShape="{RoundRectangle CornerRadius=30}"
+            VerticalOptions="EndAndExpand">
+
+            <Border.Shadow>
+                <Shadow Opacity="0.5" Radius="90" />
+            </Border.Shadow>
+
+            <Grid Padding="25,10,25,0">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Label
+                    x:Name="lblNombre"
+                    Grid.Row="0"
+                    Padding="0,10,0,0"
+                    FontAttributes="Bold"
+                    FontFamily="SF.OTF"
+                    FontSize="16"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+
+
+                <Label
+                    x:Name="lblDatos"
+                    Grid.Row="1"
+                    FontAttributes="Bold"
+                    FontFamily="SF.OTF"
+                    FontSize="12"
+                    HorizontalTextAlignment="Center"
+                    TextColor="Gray"
+                    VerticalTextAlignment="Center" />
+
+
+
+                <!--  ZONA INFERIOR  -->
+
+                <Border
+                    x:Name="brdMenu1"
+                    Grid.Row="2"
+                    Background="#ededed"
+                    HeightRequest="50"
+                    Stroke="#00000000"
+                    StrokeShape="RoundRectangle 10"
+                    StrokeThickness="2">
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="funcionSeleccion" />
+                    </Border.GestureRecognizers>
+                    <Grid Padding="20,0,20,0">
+                        <Label
+                            FontFamily="SFL.OTF"
+                            FontSize="16"
+                            HorizontalOptions="Start"
+                            Text="{x:Static local:AppResources.ModificarDatos}"
+                            TextColor="Gray"
+                            VerticalOptions="Center" />
+                        <ImageButton
+                            BackgroundColor="#00000000"
+                            HorizontalOptions="End"
+                            InputTransparent="True"
+                            Source="edit.png"
+                            VerticalOptions="Center"
+                            WidthRequest="18">
+
+                            <ImageButton.Behaviors>
+                                <toolkit:IconTintColorBehavior TintColor="Gray" />
+                            </ImageButton.Behaviors>
+
+                        </ImageButton>
+                    </Grid>
+                </Border>
+
+
+
+                <Border
+                    x:Name="brdMenu2"
+                    Grid.Row="3"
+                    Background="#ededed"
+                    HeightRequest="50"
+                    Stroke="#00000000"
+                    StrokeShape="RoundRectangle 10"
+                    StrokeThickness="2">
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="funcionSeleccion" />
+                    </Border.GestureRecognizers>
+                    <Grid Padding="20,0,20,0">
+                        <Label
+                            FontFamily="SFL.OTF"
+                            FontSize="16"
+                            HorizontalOptions="Start"
+                            Text="{x:Static local:AppResources.ConsultarHTest}"
+                            TextColor="Gray"
+                            VerticalOptions="Center" />
+                        <ImageButton
+                            BackgroundColor="#00000000"
+                            HorizontalOptions="End"
+                            InputTransparent="True"
+                            Source="testhistory.png"
+                            VerticalOptions="Center"
+                            WidthRequest="24" />
+                    </Grid>
+                </Border>
+
+
+
+
+
+
+                <Border
+                    x:Name="brdMenu3"
+                    Grid.Row="4"
+                    Background="#ededed"
+                    HeightRequest="50"
+                    Stroke="#00000000"
+                    StrokeShape="RoundRectangle 10"
+                    StrokeThickness="2">
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="funcionSeleccion" />
+                    </Border.GestureRecognizers>
+                    <Grid Padding="20,0,20,0">
+                        <Label
+                            FontFamily="SFL.OTF"
+                            FontSize="16"
+                            HorizontalOptions="Start"
+                            Text="{x:Static local:AppResources.ElimUsuario}"
+                            TextColor="Gray"
+                            VerticalOptions="Center" />
+                        <ImageButton
+                            BackgroundColor="#00000000"
+                            HorizontalOptions="End"
+                            InputTransparent="True"
+                            Source="cleansettings.png"
+                            VerticalOptions="Center"
+                            WidthRequest="20" />
+                    </Grid>
+                </Border>
+
+                <Button
+                    x:Name="btnEmpezar"
+                    Grid.Row="5"
+                    Margin="0,10,0,0"
+                    BackgroundColor="#00BF70"
+                    Clicked="cerrarAjustes"
+                    CornerRadius="10"
+                    FontFamily="SF.OTF"
+                    FontSize="15"
+                    HeightRequest="45"
+                    Text="{x:Static local:AppResources.Cerrar}"
+                    TextColor="White"
+                    VerticalOptions="End"
+                    WidthRequest="340" />
+
+
+
+
+            </Grid>
+
+        </Border>
+    </Grid>
+
+
+
+
+
+
+</ContentPage>

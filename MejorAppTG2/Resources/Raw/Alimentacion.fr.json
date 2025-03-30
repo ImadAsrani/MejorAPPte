@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "L'idée d'être trop grosse me stresse."
+  },
+  {
+    "id": 2,
+    "question": "J'essaie de ne pas manger quand j'ai faim."
+  },
+  {
+    "id": 3,
+    "question": "La nourriture est une préoccupation constante pour moi."
+  },
+  {
+    "id": 4,
+    "question": "J'ai vécu des crises de boulimie où j'avais l'impression de ne pas pouvoir m'arrêter de manger."
+  },
+  {
+    "id": 5,
+    "question": "Je coupe mes aliments en petits morceaux."
+  },
+  {
+    "id": 6,
+    "question": "Je connais la quantité de calories des aliments que je mange."
+  },
+  {
+    "id": 7,
+    "question": "J'essaie de ne pas manger des aliments riches en glucides (pain, riz, pommes de terre, etc.)."
+  },
+  {
+    "id": 8,
+    "question": "J'ai l'impression que les autres aimeraient me voir manger davantage."
+  },
+  {
+    "id": 9,
+    "question": "Je vomis après avoir mangé."
+  },
+  {
+    "id": 10,
+    "question": "Je me sens très coupable après avoir mangé."
+  },
+  {
+    "id": 11,
+    "question": "Je suis obsédée par le désir d'être plus mince."
+  },
+  {
+    "id": 12,
+    "question": "Quand je fais du sport, je pense surtout à brûler des calories."
+  },
+  {
+    "id": 13,
+    "question": "Les autres pensent que je suis trop mince."
+  },
+  {
+    "id": 14,
+    "question": "L'idée d'avoir des zones grasses sur mon corps et/ou de la cellulite me préoccupe."
+  },
+  {
+    "id": 15,
+    "question": "Je mets plus de temps à manger que les autres."
+  },
+  {
+    "id": 16,
+    "question": "J'essaie de ne pas manger d'aliments contenant du sucre."
+  },
+  {
+    "id": 17,
+    "question": "Je mange des aliments diététiques."
+  },
+  {
+    "id": 18,
+    "question": "J'ai l'impression que ma vie tourne autour de la nourriture."
+  },
+  {
+    "id": 19,
+    "question": "J'ai un bon contrôle de moi-même en ce qui concerne la nourriture."
+  },
+  {
+    "id": 20,
+    "question": "J'ai l'impression que les autres me poussent à manger davantage."
+  },
+  {
+    "id": 21,
+    "question": "Je passe trop de temps à penser à la nourriture."
+  },
+  {
+    "id": 22,
+    "question": "Je ne me sens pas bien après avoir mangé des sucreries."
+  },
+  {
+    "id": 23,
+    "question": "Je fais un régime."
+  },
+  {
+    "id": 24,
+    "question": "J'aime avoir l'estomac vide."
+  },
+  {
+    "id": 25,
+    "question": "J'aime essayer des plats nouveaux, savoureux et riches en calories."
+  },
+  {
+    "id": 26,
+    "question": "Après les repas, j'ai l'envie de vomir."
+  }
+]

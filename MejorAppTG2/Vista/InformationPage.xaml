@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<toolkit:Popup
+    x:Class="MejorAppTG2.Vista.InformationPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MejorAppTG2.Localization"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    CanBeDismissedByTappingOutsideOfPopup="False"
+    Color="Transparent">
+
+    <Grid
+        Padding="30"
+        BackgroundColor="Transparent"
+        VerticalOptions="Start">
+
+
+
+        <Border
+            x:Name="miPop"
+            Background="White"
+            HeightRequest="550"
+            HorizontalOptions="CenterAndExpand"
+            Stroke="#00000000"
+            StrokeShape="{RoundRectangle CornerRadius=30}"
+            VerticalOptions="Center"
+            WidthRequest="340">
+
+            <Border.Shadow>
+                <Shadow Opacity="0.7" Radius="10" />
+            </Border.Shadow>
+
+            <Grid
+                Padding="20"
+                HorizontalOptions="Center"
+                RowSpacing="10"
+                VerticalOptions="Start">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="25" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="160" />
+                </Grid.RowDefinitions>
+
+                <Label
+                    x:Name="lblTitulo"
+                    Grid.Row="0"
+                    Padding="0,40,0,0"
+                    FontFamily="SF.OTF"
+                    FontSize="22"
+                    HorizontalOptions="Center"
+                    Text="{x:Static local:AppResources.ComoResponder}"
+                    TextColor="#00ab64" />
+
+                <Label
+                    x:Name="lblCuerpo"
+                    Grid.Row="1"
+                    Padding="15,0,15,0"
+                    FontFamily="SFL.OTF"
+                    FontSize="16"
+                    HorizontalOptions="Center"
+                    Text="{x:Static local:AppResources.Estoesunejemplo}"
+                    TextColor="Gray" />
+
+
+                <Label
+                    Grid.Row="2"
+                    Padding="10,0,10,0"
+                    FontFamily="SF.OTF"
+                    FontSize="15"
+                    HorizontalTextAlignment="Center"
+                    Text="{x:Static local:AppResources.CadaCuantopr}" />
+
+
+
+                <HorizontalStackLayout
+                    Grid.Row="3"
+                    Padding="15,0,0,15"
+                    InputTransparent="true">
+                    <Label FontFamily="SF.OTF" Text="1" />
+
+                    <RadioButton />
+                    <Label FontFamily="SF.OTF" Text="2" />
+
+                    <RadioButton />
+                    <Label FontFamily="SF.OTF" Text="3" />
+
+                    <RadioButton IsChecked="true" />
+                    <Label FontFamily="SF.OTF" Text="4" />
+
+                    <RadioButton />
+                    <Label FontFamily="SF.OTF" Text="5" />
+
+                    <RadioButton />
+
+
+                </HorizontalStackLayout>
+
+
+                <Label
+                    Grid.Row="4"
+                    Padding="15,0,15,0"
+                    FontFamily="SFL.OTF"
+                    FontSize="16"
+                    HorizontalOptions="Center"
+                    Text="{x:Static local:AppResources.PuedesResponderSe}"
+                    TextColor="Gray" />
+
+                <Grid
+                    Grid.Row="5"
+                    Padding="15,0,15,20"
+                    HorizontalOptions="Fill"
+                    InputTransparent="True"
+                    RowSpacing="10">
+
+                    <Grid.RowDefinitions>
+
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+
+                    </Grid.RowDefinitions>
+
+                    <Label
+                        FontFamily="SF.OTF"
+                        HorizontalOptions="Start"
+                        Text="{x:Static local:AppResources.Nunca}"
+                        WidthRequest="200" />
+
+                    <Label
+                        Grid.Row="1"
+                        FontFamily="SF.OTF"
+                        HorizontalOptions="Start"
+                        Text="{x:Static local:AppResources.EnAlguna}"
+                        WidthRequest="200" />
+
+                    <Label
+                        Grid.Row="2"
+                        FontFamily="SF.OTF"
+                        HorizontalOptions="Start"
+                        Text="{x:Static local:AppResources.AMenudoinf}"
+                        TextColor="#00ab64"
+                        WidthRequest="200" />
+
+                    <Label
+                        Grid.Row="3"
+                        FontFamily="SF.OTF"
+                        HorizontalOptions="Start"
+                        Text="{x:Static local:AppResources.CasiSiempreinf}"
+                        WidthRequest="200" />
+
+                    <Label
+                        Grid.Row="4"
+                        FontFamily="SF.OTF"
+                        HorizontalOptions="Start"
+                        Text="{x:Static local:AppResources.Siempreinf}"
+                        WidthRequest="200" />
+
+                </Grid>
+
+
+
+            </Grid>
+
+        </Border>
+
+
+
+        <Button
+            Margin="0,530,0,0"
+            Background="#00BF70"
+            BorderColor="White"
+            BorderWidth="4"
+            Clicked="aceptarBorrarDatos"
+            CornerRadius="40"
+            FontFamily="SF.OTF"
+            HeightRequest="60"
+            HorizontalOptions="Center"
+            Text="{x:Static local:AppResources.Aceptar}"
+            TextColor="White"
+            WidthRequest="180" />
+
+        <Button
+            x:Name="btnInfo"
+            Margin="0,-20,0,0"
+            Background="#00BF70"
+            BorderColor="White"
+            BorderWidth="4"
+            CornerRadius="100"
+            FontFamily="SF.OTF"
+            FontSize="40"
+            HeightRequest="80"
+            HorizontalOptions="Center"
+            Text="?"
+            TextColor="White"
+            VerticalOptions="Start"
+            WidthRequest="80" />
+
+    </Grid>
+
+</toolkit:Popup>

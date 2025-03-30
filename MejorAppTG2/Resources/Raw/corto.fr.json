@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "question": "Lors des interrogations, j'ai les mains moites ou je ressens une raideur dans les mains et/ou les bras.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 2,
+    "question": "Je pense que le professeur me surveille constamment pendant l'interrogation.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 3,
+    "question": "En commençant à lire l'interrogation, ma vue se brouille et je ne comprends pas ce que je lis.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 4,
+    "question": "Pendant que je réalise l’interro, je pense que je fais tout à l’envers.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 5,
+    "question": "Si j'arrive 5 minutes en retard à une interrogation, je n’entre pas dans la salle de classe, je me cache dans l'établissement ou j'essaie de partir.",
+    "Tipo": "EVI"
+  },
+  {
+    "id": 6,
+    "question": "Quand un groupe de camarades parle de l'interrogation avant que le professeur arrive, je deviens plus nerveux/nerveuse.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 7,
+    "question": "Pour moi, c'est un soulagement ou un apaisement lorsqu'une interrogation est reportée pour une raison quelconque.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 8,
+    "question": "Je n'arrive pas à dormir la nuit avant une interrogation.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 9,
+    "question": "Je pense que je ne vais pas pouvoir réussir l'interrogation, même si j'ai étudié.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 10,
+    "question": "En commençant l'interrogation, dès que je lis les questions, je le rends vierge au professeur et je retourne à ma place.",
+    "Tipo": "EVI"
+  },
+  {
+    "id": 11,
+    "question": "Quand je fais une interrogation, mon cœur bat très vite.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 12,
+    "question": "Après avoir passé une interrogation, je sens que je l'ai très mal fait et je pense à disparaître ou à me faire du mal.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 13,
+    "question": "Il m'est difficile ou impossible de manger avant de passer une interrogation.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 14,
+    "question": "Je tombe malade et je trouve des excuses pour ne pas passer une interrogation.",
+    "Tipo": "EVI"
+  },
+  {
+    "id": 15,
+    "question": "Dans les heures/moments précédant l'interrogation, j’ai mal au ventre ou des troubles digestifs et je dois aller au toilette .",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 16,
+    "question": "Je mets beaucoup de temps à me décider à répondre à la plupart des questions ou à rendre l'interrogation.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 17,
+    "question": "Avant d'entrer dans l'interrogation, je parle très vite et je bouge plus que d'habitude.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 18,
+    "question": "Pendant les interrogations, j'ai du mal à me concentrer et parfois je me bloque .",
+    "Tipo": "COG"
+  },
+  {
+    "id": 19,
+    "question": "J'établis un rituel avant l'interrogation et si je ne peux pas le respecter, je trouve une excuse et je n'entre pas à l'interrogation.",
+    "Tipo": "EVI"
+  },
+  {
+    "id": 20,
+    "question": "Pendant une interrogation, je ne peux pas rester immobile, j’ai l’habitude de me ronger les ongles ou de mordiller le stylo ...",
+    "Tipo": "FIS"
+  }
+]

@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage
+    x:Class="MejorAppTG2.Vista.RegisterPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ios="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;assembly=Microsoft.Maui.Controls"
+    xmlns:local="clr-namespace:MejorAppTG2.Localization"
+    Title="{x:Static local:AppResources.TitRegisterpage}"
+    ios:Page.ModalPresentationStyle="OverFullScreen"
+    BackgroundColor="#00000000"
+    Shell.BackgroundColor="White"
+    Shell.NavBarHasShadow="True">
+
+    <Grid Padding="5,0,5,5">
+        <Border
+            Margin="0,0,0,0"
+            Padding="20"
+            Background="White"
+            HeightRequest="500"
+            Stroke="#00000000"
+            StrokeShape="{RoundRectangle CornerRadius='30,30,30,30'}"
+            VerticalOptions="EndAndExpand">
+
+            <Border.Shadow>
+                <Shadow Opacity="0.6" Radius="90" />
+            </Border.Shadow>
+
+
+            <Grid Padding="10" RowSpacing="30">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Label
+                    Grid.Row="0"
+                    FontAttributes="Bold"
+                    FontFamily="SF.OTF"
+                    FontSize="23"
+                    HorizontalTextAlignment="Center"
+                    Text="{x:Static local:AppResources.nombre_registro}"
+
+                    VerticalTextAlignment="Center" />
+
+
+                <Label
+                    x:Name="lblSuperior"
+                    Grid.Row="1"
+                    Margin="0,30,0,0"
+                    FontFamily="SF.OTF"
+                    FontSize="16"
+                    HorizontalTextAlignment="Center"
+                    Text="{x:Static local:AppResources.pregunta_nombre}"
+                    TextColor="#00bf70" />
+
+
+
+                <Border
+                    x:Name="brdSuperior"
+                    
+                    Grid.Row="2"
+                    
+                    Padding="10,0,0,0"
+                    Stroke="LightGray"
+                    StrokeShape="RoundRectangle 10"
+                    StrokeThickness="2">
+                    <Entry
+                        x:Name="entSuperior"
+                       MaxLength="20"
+                        FontFamily="SF.OTF"
+                        HeightRequest="50"
+                        TextColor="#002e1b" />
+                </Border>
+
+
+                <HorizontalStackLayout
+                    x:Name="hslGenero"
+                    Grid.Row="2"
+                    HorizontalOptions="Center"
+                    IsVisible="Collapse"
+                    Spacing="10">
+
+
+                    <Border
+                        x:Name="brdgenero1"
+                        Padding="-10"
+                        HeightRequest="100"
+                        Stroke="#002e1b"
+                        StrokeShape="RoundRectangle 10"
+                        StrokeThickness="2"
+                        WidthRequest="90">
+
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="funcionCambiarColorSexoSeleccionado" />
+                        </Border.GestureRecognizers>
+
+                        <VerticalStackLayout>
+
+
+                            <ImageButton
+                                x:Name="btnMale"
+                                Margin="0,30,0,0"
+                                BackgroundColor="#00000000"
+                                HeightRequest="35"
+                                InputTransparent="True"
+                                Source="Assets/gender.png" />
+                            <Label
+                                Padding="0,8,0,0"
+                                FontFamily="SF.OTF"
+                                FontSize="14"
+                                HorizontalOptions="Center"
+                                Text="{x:Static local:AppResources.RegsterMasculino}"
+                                TextColor="#272727"
+                                VerticalOptions="Center" />
+
+                        </VerticalStackLayout>
+
+                    </Border>
+
+
+                    <Border
+                        x:Name="brdgenero2"
+                        Padding="-10"
+                        HeightRequest="100"
+                        Stroke="#002e1b"
+                        StrokeShape="RoundRectangle 10"
+                        StrokeThickness="2"
+                        WidthRequest="90">
+
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="funcionCambiarColorSexoSeleccionado" />
+                        </Border.GestureRecognizers>
+
+                        <VerticalStackLayout>
+
+
+                            <ImageButton
+                                x:Name="btnFemale"
+                                Margin="0,30,0,0"
+                                BackgroundColor="#00000000"
+                                HeightRequest="35"
+                                InputTransparent="True"
+                                Source="Assets/female.png" />
+                            <Label
+                                Padding="0,8,0,0"
+                                FontFamily="SF.OTF"
+                                FontSize="14"
+                                HorizontalOptions="Center"
+                                Text="{x:Static local:AppResources.RegsterFemenino}"
+                                TextColor="#272727"
+                                VerticalOptions="Center" />
+
+                        </VerticalStackLayout>
+
+                    </Border>
+
+
+
+                    <Border
+                        x:Name="brdgenero3"
+                        Padding="-10"
+                        HeightRequest="100"
+                        Stroke="#002e1b"
+                        StrokeShape="RoundRectangle 10"
+                        StrokeThickness="2"
+                        WidthRequest="90">
+
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="funcionCambiarColorSexoSeleccionado" />
+                        </Border.GestureRecognizers>
+
+                        <VerticalStackLayout>
+
+
+                            <ImageButton
+                                x:Name="btnOther"
+                                Margin="0,30,0,0"
+                                BackgroundColor="#00000000"
+                                HeightRequest="35"
+                                InputTransparent="True"
+                                Source="Assets/unknown.png" />
+                            <Label
+                                Padding="0,8,0,0"
+                                FontFamily="SF.OTF"
+                                FontSize="14"
+                                HorizontalOptions="Center"
+                                Text="{x:Static local:AppResources.RegsterOtro}"
+                                TextColor="#272727"
+                                VerticalOptions="Center" />
+
+                        </VerticalStackLayout>
+
+                    </Border>
+
+
+                </HorizontalStackLayout>
+
+                <Grid
+                    x:Name="gridAvatar"
+                    Grid.Row="2"
+                    ColumnSpacing="10"
+                    HorizontalOptions="Center"
+                    IsVisible="false"
+                    RowSpacing="10"
+                    VerticalOptions="Center">
+
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="80" />
+                        <RowDefinition Height="80" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="80" />
+                        <ColumnDefinition Width="80" />
+                        <ColumnDefinition Width="80" />
+                    </Grid.ColumnDefinitions>
+
+
+                    <Border
+                        x:Name="prfl1"
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        Background="White"
+                        HeightRequest="80"
+                        HorizontalOptions="End"
+                        Stroke="Black"
+                        StrokeShape="RoundRectangle 80,80,80,80"
+                        StrokeThickness="1.5">
+
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="funcionCambiarAvatarSeleccionado" />
+                        </Border.GestureRecognizers>
+                        <Image HeightRequest="75" Source="Assets/profile1.png" />
+
+                    </Border>
+
+
+
+                    <Border
+                        x:Name="prfl2"
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        Background="White"
+                        HeightRequest="80"
+                        HorizontalOptions="End"
+                        Stroke="Black"
+                        StrokeShape="RoundRectangle 80,80,80,80"
+                        StrokeThickness="1.5">
+
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="funcionCambiarAvatarSeleccionado" />
+                        </Border.GestureRecognizers>
+                        <Image HeightRequest="75" Source="Assets/profile2.png" />
+
+                    </Border>
+
+
+                    <Border
+                        x:Name="prfl3"
+                        Grid.Row="0"
+                        Grid.Column="2"
+                        Background="White"
+                        HeightRequest="80"
+                        HorizontalOptions="End"
+                        Stroke="Black"
+                        StrokeShape="RoundRectangle 80,80,80,80"
+                        StrokeThickness="1.5">
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="funcionCambiarAvatarSeleccionado" />
+                        </Border.GestureRecognizers>
+
+                        <Image HeightRequest="75" Source="Assets/profile3.png" />
+
+                    </Border>
+
+
+
+                    <Border
+                        x:Name="prfl4"
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        Background="White"
+                        HeightRequest="80"
+                        HorizontalOptions="End"
+                        Stroke="Black"
+                        StrokeShape="RoundRectangle 80,80,80,80"
+                        StrokeThickness="1.5">
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="funcionCambiarAvatarSeleccionado" />
+                        </Border.GestureRecognizers>
+
+                        <Image HeightRequest="75" Source="Assets/profile4.png" />
+
+                    </Border>
+
+
+
+                    <Border
+                        x:Name="prfl5"
+                        Grid.Row="2"
+                        Grid.Column="1"
+                        Background="White"
+                        HeightRequest="80"
+                        HorizontalOptions="End"
+                        Stroke="Black"
+                        StrokeShape="RoundRectangle 80,80,80,80"
+                        StrokeThickness="1.5">
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="funcionCambiarAvatarSeleccionado" />
+                        </Border.GestureRecognizers>
+
+                        <Image HeightRequest="75" Source="Assets/profile5.png" />
+
+                    </Border>
+
+
+                    <Border
+                        x:Name="prfl6"
+                        Grid.Row="1"
+                        Grid.Column="2"
+                        Background="White"
+                        HeightRequest="80"
+                        HorizontalOptions="End"
+                        Stroke="Black"
+                        StrokeShape="RoundRectangle 80,80,80,80"
+                        StrokeThickness="1.5">
+
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="funcionCambiarAvatarSeleccionado" />
+                        </Border.GestureRecognizers>
+
+                        <Image HeightRequest="75" Source="Assets/profile6.png" />
+
+                    </Border>
+
+
+                </Grid>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <Button
+                    x:Name="btnRegistro"
+                    Grid.Row="4"
+                    Margin="0,10"
+                    BackgroundColor="#00BF70"
+                    Clicked="funcionalidadBotonFlecha"
+                    CornerRadius="60"
+                    FontFamily="SF.OTF"
+                    FontSize="14"
+                    HeightRequest="65"
+                    Text="➜"
+                    TextColor="White"
+                    VerticalOptions="End"
+                    WidthRequest="65">
+
+                    <Button.Shadow>
+                        <Shadow
+                            Brush="Black"
+                            Opacity="0.2"
+                            Radius="40"
+                            Offset="0,6" />
+                    </Button.Shadow>
+                </Button>
+
+
+
+
+
+
+
+            </Grid>
+
+        </Border>
+
+
+
+    </Grid>
+
+
+</ContentPage>

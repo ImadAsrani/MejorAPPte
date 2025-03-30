@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<toolkit:Popup
+    x:Class="MejorAppTG2.Vista.WarningPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MejorAppTG2.Localization"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    Color="Transparent">
+
+    <Grid
+        Padding="30"
+        BackgroundColor="Transparent"
+        VerticalOptions="Center">
+
+
+
+        <Border
+            x:Name="miPop"
+            Background="White"
+            HeightRequest="410"
+            HorizontalOptions="CenterAndExpand"
+            Stroke="#00000000"
+            StrokeShape="{RoundRectangle CornerRadius=30}"
+            VerticalOptions="Center"
+            WidthRequest="340">
+
+            <Border.Shadow>
+                <Shadow Opacity="0.7" Radius="10" />
+            </Border.Shadow>
+
+            <Grid
+                Padding="20"
+                HorizontalOptions="Center"
+                RowSpacing="10"
+                VerticalOptions="Start">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80" />
+                    <RowDefinition Height="*" />
+
+
+                </Grid.RowDefinitions>
+
+                <Label
+                    x:Name="lblTitulo"
+                    Grid.Row="0"
+                    Padding="0,40,0,0"
+                    FontFamily="SF.OTF"
+                    FontSize="22"
+                    HorizontalOptions="Center"
+                    Text="{x:Static local:AppResources.AVISOMAYUS}"
+                    TextColor="#00ab64" />
+
+                <Label
+                    x:Name="lblCuerpo"
+                    Grid.Row="1"
+                    Padding="25,0,25,0"
+                    FontFamily="SFL.OTF"
+                    FontSize="18"
+                    HorizontalTextAlignment="Center"
+                    Text="{x:Static local:AppResources.SiTusPre}"
+                    TextColor="Gray" />
+
+
+
+            </Grid>
+
+        </Border>
+
+
+
+        <Button
+            Margin="0,400,0,0"
+            Background="#00BF70"
+            BorderColor="White"
+            BorderWidth="4"
+            Clicked="aceptarBorrarDatos"
+            CornerRadius="40"
+            FontFamily="SF.OTF"
+            HeightRequest="60"
+            HorizontalOptions="Center"
+            Text="{x:Static local:AppResources.Aceptar}"
+            TextColor="White"
+            WidthRequest="180" />
+
+
+        <Button
+            x:Name="btnInfo"
+            Margin="0,-10,0,0"
+            Background="#00BF70"
+            BorderColor="White"
+            BorderWidth="4"
+            CornerRadius="100"
+            FontFamily="SF.OTF"
+            FontSize="40"
+            HeightRequest="80"
+            HorizontalOptions="Center"
+            Text="!"
+            TextColor="White"
+            VerticalOptions="Start"
+            WidthRequest="80" />
+
+    </Grid>
+
+</toolkit:Popup>
+
+
+
+
+

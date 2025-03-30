@@ -1,0 +1,131 @@
+[
+  {
+    "id": 1,
+    "question": "Me angustia la idea de estar demasiado gorda."
+  },
+
+  {
+    "id": 2,
+    "question": "Procuro no comer cuando tengo hambre."
+  },
+
+  {
+    "id": 3,
+    "question": "La comida es para mí una preocupación habitual."
+  },
+
+  {
+    "id": 4,
+    "question": "He sufrido crisis de atracones en las que tenía la sensación de no poder parar de comer."
+  },
+
+  {
+    "id": 5,
+    "question": "Corto mis alimentos en pequeños trozos."
+  },
+
+  {
+    "id": 6,
+    "question": "Conozco la cantidad de calorías de los alimentos que como."
+  },
+
+  {
+    "id": 7,
+    "question": "Procuro no comer alimentos que contengan muchos carbohidratos (pan, arroz, papas, etc.)."
+  },
+
+  {
+    "id": 8,
+    "question": "Tengo la impresión de que a los demás les gustaría verme comer más."
+  },
+
+  {
+    "id": 9,
+    "question": "Vomito después de comer."
+  },
+
+  {
+    "id": 10,
+    "question": "Me siento muy culpable después de comer."
+  },
+
+  {
+    "id": 11,
+    "question": "Me obsesiona el deseo de estar más delgada."
+  },
+
+  {
+    "id": 12,
+    "question": "Cuando hago deporte pienso sobre todo en quemar calorías."
+  },
+
+  {
+    "id": 13,
+    "question": "Los demás piensan que estoy demasiado delgada."
+  },
+
+  {
+    "id": 14,
+    "question": "Me preocupa la idea de tener zonas gordas en el cuerpo y/o de tener celulitis."
+  },
+
+  {
+    "id": 15,
+    "question": "Tardo más tiempo que los demás en comer."
+  },
+
+  {
+    "id": 16,
+    "question": "Procuro no comer alimentos que tengan azúcar."
+  },
+
+  {
+    "id": 17,
+    "question": "Como alimentos dietéticos."
+  },
+
+  {
+    "id": 18,
+    "question": "Tengo la impresión de que mi vida gira alrededor de la comida."
+  },
+
+  {
+    "id": 19,
+    "question": "Tengo un buen autocontrol en lo que se refiere a la comida."
+  },
+
+  {
+    "id": 20,
+    "question": "Tengo la sensación de que los demás me presionan para que coma más."
+  },
+
+  {
+    "id": 21,
+    "question": "Paso demasiado tiempo pensando en la comida."
+  },
+
+  {
+    "id": 22,
+    "question": "No me siento bien después de haber tomado dulces."
+  },
+
+  {
+    "id": 23,
+    "question": "Estoy haciendo dieta."
+  },
+
+  {
+    "id": 24,
+    "question": "Me gusta tener el estómago vacío."
+  },
+
+  {
+    "id": 25,
+    "question": "Me gusta probar platos nuevos, sabrosos y ricos en calorías."
+  },
+
+  {
+    "id": 26,
+    "question": "Después de las comidas tengo el impulso de vomitar."
+  }
+]

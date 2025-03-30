@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "question": "During exams, my hands sweat or I feel stiffness in my hands and/or arms.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 2,
+    "question": "I think the teacher is constantly watching me during the exam.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 3,
+    "question": "When I start reading the exam, my vision blurs and I don't understand what I'm reading.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 4,
+    "question": "While taking the exam, I think I'm doing very badly.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 5,
+    "question": "If I'm 5 minutes late for an exam, I don't go in, I hide in the school or try to leave.",
+    "Tipo": "EVI"
+  },
+  {
+    "id": 6,
+    "question": "When a group of classmates talks about the exam before the teacher arrives, I get more nervous.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 7,
+    "question": "For me, it's a relief or comfort when, for any reason, an exam is postponed.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 8,
+    "question": "I can't sleep the night before an exam.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 9,
+    "question": "I think I won't be able to pass the exam, even if I've studied.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 10,
+    "question": "At the beginning of the exam, as soon as I read the questions, I hand it in blank to the teacher and go back to my seat.",
+    "Tipo": "EVI"
+  },
+  {
+    "id": 11,
+    "question": "When I'm taking an exam, my heart beats very fast.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 12,
+    "question": "After taking an exam, I feel like I did terribly and think about disappearing or hurting myself.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 13,
+    "question": "It's difficult or impossible for me to eat before taking an exam.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 14,
+    "question": "I get sick and come up with excuses not to take an exam.",
+    "Tipo": "EVI"
+  },
+  {
+    "id": 15,
+    "question": "In the hours/moments leading up to the exam, I feel stomach discomfort or it gets upset and I have to go to the bathroom.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 16,
+    "question": "I take a long time to decide to answer most of the questions or to turn in the exam.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 17,
+    "question": "Before entering the exam, I talk very fast and move more than usual.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 18,
+    "question": "During exams, I have difficulty concentrating and sometimes I freeze.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 19,
+    "question": "I establish a pre-exam ritual and if I can't follow it, I come up with an excuse and don't take the exam.",
+    "Tipo": "EVI"
+  },
+  {
+    "id": 20,
+    "question": "While taking an exam, I can't stay still, I tend to bite my nails or the pen...",
+    "Tipo": "FIS"
+  }
+]

@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aviso_nombre" xml:space="preserve">
+    <value>Enter a name to continue.</value>
+  </data>
+  <data name="btnStart" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="cuerpoPopupAviso" xml:space="preserve">
+    <value>You can access these tips anytime you want by clicking on your profile.</value>
+  </data>
+  <data name="descripcion1Carrusel" xml:space="preserve">
+    <value>Remember that dedicating time to your mental well-being is investing in your happiness. Take care of your mind as an invaluable resource.</value>
+  </data>
+  <data name="descripcion2Carrusel" xml:space="preserve">
+    <value>Mental health is a priority, not a luxury. Strengthen your emotional well-being to face any challenge.</value>
+  </data>
+  <data name="descripcion3Carrusel" xml:space="preserve">
+    <value>Talking about your emotions and experiences can relieve emotional weight and improve your mental health and well-being.</value>
+  </data>
+  <data name="nombre_registro" xml:space="preserve">
+    <value>Welcome, before we start, we need to get to know you.</value>
+  </data>
+  <data name="pregunta_nombre" xml:space="preserve">
+    <value>What is your name?</value>
+  </data>
+  <data name="tituloPopupAviso" xml:space="preserve">
+    <value>Remember!</value>
+  </data>
+  <data name="TitRegisterpage" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="RegsterMasculino" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="RegsterFemenino" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="RegsterOtro" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="AvisoSalir" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="RgstPDescSalir" xml:space="preserve">
+    <value>If you exit, all registration data will be lost.</value>
+  </data>
+  <data name="RegsterPreguntaEdad" xml:space="preserve">
+    <value>How old are you currently?</value>
+  </data>
+  <data name="RegsterAvisoEdad" xml:space="preserve">
+    <value>You must be over 11 years old to register.</value>
+  </data>
+  <data name="RegisterPreguntaedad" xml:space="preserve">
+    <value>What is your gender?</value>
+  </data>
+  <data name="RegisterDebest" xml:space="preserve">
+    <value>You must be over 11 years old to register.</value>
+  </data>
+  <data name="RegisterIngresaEdad" xml:space="preserve">
+    <value>Enter your age to continue.</value>
+  </data>
+  <data name="RegisterSAvatar" xml:space="preserve">
+    <value>Select an avatar.</value>
+  </data>
+  <data name="RegisterSGenero" xml:space="preserve">
+    <value>Please select a gender.</value>
+  </data>
+  <data name="RegisterSelectAvatar" xml:space="preserve">
+    <value>Please select an avatar.</value>
+  </data>
+  <data name="TituloTAliment" xml:space="preserve">
+    <value>NUTRITION TEST</value>
+  </data>
+  <data name="TituloTARap" xml:space="preserve">
+    <value>QUICK ANXIETY TEST</value>
+  </data>
+  <data name="TituloTACompl" xml:space="preserve">
+    <value>FULL ANXIETY TEST</value>
+  </data>
+  <data name="tituloAnsiedadCompleto" xml:space="preserve">
+    <value>FULL ANXIETY TEST</value>
+  </data>
+  <data name="MainAvisotit" xml:space="preserve">
+    <value>Oops!</value>
+  </data>
+  <data name="MainAvisoDescr" xml:space="preserve">
+    <value>To access user settings, you first need to register.</value>
+  </data>
+  <data name="Confirmar" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Cancelar" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ModificarDatos" xml:space="preserve">
+    <value>Modify data</value>
+  </data>
+  <data name="ConsultarHTest" xml:space="preserve">
+    <value>View test history</value>
+  </data>
+  <data name="ElimUsuario" xml:space="preserve">
+    <value>Delete user</value>
+  </data>
+  <data name="Cerrar" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Anios" xml:space="preserve">
+    <value>Years</value>
+  </data>
+  <data name="EliminDatos" xml:space="preserve">
+    <value>Delete data</value>
+  </data>
+  <data name="SeEliminusu" xml:space="preserve">
+    <value>The user and all their data will be deleted.</value>
+  </data>
+  <data name="SinDatos" xml:space="preserve">
+    <value>No data</value>
+  </data>
+  <data name="NoharealNinT" xml:space="preserve">
+    <value>No tests have been performed yet.</value>
+  </data>
+  <data name="Nombre" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Edad" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="Sexo" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Aceptar" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="SeleccionAvatar" xml:space="preserve">
+    <value>Select an avatar</value>
+  </data>
+  <data name="TestRealizados" xml:space="preserve">
+    <value>Completed tests</value>
+  </data>
+  <data name="Volver" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Realizado" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="TestTrastAlim" xml:space="preserve">
+    <value>EATING DISORDER TEST</value>
+  </data>
+  <data name="ComoResponder" xml:space="preserve">
+    <value>How to answer?</value>
+  </data>
+  <data name="Estoesunejemplo" xml:space="preserve">
+    <value>This is an example of a test question.</value>
+  </data>
+  <data name="CadaCuantopr" xml:space="preserve">
+    <value>How often do you practice sports?</value>
+  </data>
+  <data name="PuedesResponderSe" xml:space="preserve">
+    <value>You can answer by selecting a number from 1 to 5</value>
+  </data>
+  <data name="Nunca" xml:space="preserve">
+    <value>1 - Never</value>
+  </data>
+  <data name="EnAlgunaO" xml:space="preserve">
+    <value>Occasionally</value>
+  </data>
+  <data name="Amenudo" xml:space="preserve">
+    <value>Often</value>
+  </data>
+  <data name="CasiSiempre" xml:space="preserve">
+    <value>Almost always</value>
+  </data>
+  <data name="Siempre" xml:space="preserve">
+    <value>Always</value>
+  </data>
+  <data name="ComoRes" xml:space="preserve">
+    <value>How to answer?</value>
+  </data>
+  <data name="EnAlguna" xml:space="preserve">
+    <value>2 - Sometimes</value>
+  </data>
+  <data name="AMenudoinf" xml:space="preserve">
+    <value>3 - Often</value>
+  </data>
+  <data name="CasiSiempreinf" xml:space="preserve">
+    <value>4 - Almost always</value>
+  </data>
+  <data name="Siempreinf" xml:space="preserve">
+    <value>5 - Always</value>
+  </data>
+  <data name="AVISOMAYUS" xml:space="preserve">
+    <value>NOTICE</value>
+  </data>
+  <data name="SiTusPre" xml:space="preserve">
+    <value>If your concerns about food are related to wanting to gain more weight or muscle mass, this application may not be suitable for you at this time. We are working to address these needs in future versions.</value>
+  </data>
+  <data name="Enviar" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="SeGuardaraAvance" xml:space="preserve">
+    <value>Your progress in the current test will be saved.</value>
+  </data>
+  <data name="NoTeOlv" xml:space="preserve">
+    <value>Are you forgetting something?</value>
+  </data>
+  <data name="TienesQueRes" xml:space="preserve">
+    <value>You need to answer all the questions to move to the next page!</value>
+  </data>
+  <data name="Recuerda" xml:space="preserve">
+    <value>Remember!</value>
+  </data>
+  <data name="PodrasAcc" xml:space="preserve">
+    <value>You can access these tips anytime by clicking on your profile.</value>
+  </data>
+</root>

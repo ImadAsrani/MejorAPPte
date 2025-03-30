@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MejorAppTG2.Vista.ShortTest"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MejorAppTG2.Localization"
+    xmlns:maui="clr-namespace:epj.CircularGauge.Maui;assembly=epj.CircularGauge.Maui"
+    Title="ShortTest"
+    BackgroundColor="#00000000">
+
+    <Grid Padding="5,60,5,5">
+
+
+        <Border
+            Padding="0,0,0,0"
+            Background="White"
+            IsVisible="true"
+            Stroke="#00000000"
+            StrokeShape="{RoundRectangle CornerRadius='30,30,30,30'}">
+
+            <Border.Shadow>
+                <Shadow Opacity="0.5" Radius="100" />
+            </Border.Shadow>
+
+            <Grid
+                Padding="0,0,0,0"
+                HorizontalOptions="Center"
+                VerticalOptions="StartAndExpand">
+                <!--  Definicion de las filas del Grid  -->
+
+                <Grid.RowDefinitions>
+
+                    <RowDefinition Height="75" />
+                    <!--  Titulo y Progreso  -->
+                    <RowDefinition Height="*" />
+                    <!--  Contenedor de preguntas  -->
+                    <RowDefinition Height="110" />
+                    <!--  Botones  -->
+
+                </Grid.RowDefinitions>
+
+                <!--  Seccion superior  -->
+
+                <!--  Tíitulo  -->
+                <Label
+                    Grid.Row="0"
+                    Padding="0,30,0,0"
+                    FontAttributes="Bold"
+                    FontFamily="SF.OFT"
+                    FontSize="20"
+                    HorizontalOptions="Center"
+                    Text="{x:Static local:AppResources.TituloTARap}"
+                    TextColor="#00bf70" />
+
+
+                <ScrollView Grid.Row="1">
+                    <StackLayout x:Name="questionContainer" Grid.Row="1" />
+                </ScrollView>
+
+
+                <!--  Seccion de Botones  -->
+                <Grid
+                    Grid.Row="2"
+                    Padding="0,10,0,20"
+                    ColumnSpacing="20"
+                    HorizontalOptions="Center">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="20" />
+                        <ColumnDefinition Width="100" />
+                    </Grid.ColumnDefinitions>
+
+                    <!--  Boton atras  -->
+                    <Button
+                        x:Name="prevButton"
+                        Grid.Column="0"
+                        Margin="0,0,0,0"
+                        Padding="0,0,0,0"
+                        BackgroundColor="#f0f4f8"
+                        Clicked="OnPrevButtonClicked"
+                        CornerRadius="80"
+                        FontAttributes="Bold"
+                        FontSize="30"
+                        HeightRequest="60"
+                        IsVisible="False"
+                        Text="￩"
+                        TextColor="#00bf70"
+                        WidthRequest="60">
+                        <Button.Shadow>
+                            <Shadow
+                                Brush="Black"
+                                Opacity="0.4"
+                                Radius="40"
+                                Offset="-0,5" />
+                        </Button.Shadow>
+                    </Button>
+
+                    <!--  Boton siguiente  -->
+                    <Button
+                        x:Name="nextButton"
+                        Grid.Column="1"
+                        Padding="0,0,0,0"
+                        BackgroundColor="#00bf70"
+                        Clicked="OnNextButtonClicked"
+                        CornerRadius="60"
+                        FontSize="25"
+                        HeightRequest="70"
+                        HorizontalOptions="Center"
+                        Text="➜"
+                        TextColor="White"
+                        WidthRequest="70">
+                        <Button.Shadow>
+                            <Shadow
+                                Brush="Black"
+                                Opacity="0.4"
+                                Radius="20"
+                                Offset="0,1" />
+                        </Button.Shadow>
+                    </Button>
+
+
+
+                    <maui:CircularGauge
+                        x:Name="circuloProgreso"
+                        Grid.Column="1"
+                        Margin="0,0,0,0"
+                        BaseColor="#00000000"
+                        BaseStrokeColor="#00000000"
+                        BaseStrokeWidth="2.0"
+                        BaseWidth="1.0"
+                        GaugeColor="#00BF70"
+                        GaugeWidth="5.0"
+                        HeightRequest="130"
+                        HorizontalOptions="Center"
+                        IsVisible="true"
+                        NeedleColor="#00000000"
+                        ScaleColor="#00000000"
+                        ScaleDistance="4.0"
+                        ScaleLength="8.0"
+                        ScaleThickness="3.0"
+                        ScaleUnits="10"
+                        StartAngle="0"
+                        SweepAngle="0"
+                        WidthRequest="130" />
+
+
+                    <!--  Boton enviar  -->
+                    <Button
+                        x:Name="BtnSend"
+                        Grid.Column="1"
+                        BackgroundColor="#00bf70"
+                        Clicked="BtnSend_Clicked"
+                        CornerRadius="80"
+                        FontFamily="SF.OTF"
+                        FontSize="13"
+                        HeightRequest="70"
+                        HorizontalOptions="Center"
+                        IsVisible="False"
+                        Text="{x:Static local:AppResources.Enviar}"
+                        TextColor="White"
+                        WidthRequest="70">
+                        <Button.Shadow>
+                            <Shadow
+                                Brush="Black"
+                                Opacity="0.4"
+                                Radius="20"
+                                Offset="0,1" />
+                        </Button.Shadow>
+                    </Button>
+                </Grid>
+
+
+
+            </Grid>
+
+
+        </Border>
+
+
+
+
+        <Button
+            x:Name="btnAyuda"
+            Margin="0,0,15,15"
+            Padding="0,0,0,0"
+            BackgroundColor="White"
+            BorderColor="#00bf70"
+            BorderWidth="2"
+            Clicked="btnAyuda_Clicked"
+            CornerRadius="80"
+            FontFamily="SF.OTF"
+            FontSize="12"
+            HeightRequest="30"
+            HorizontalOptions="End"
+            Text="?"
+            TextColor="#00bf70"
+            VerticalOptions="End"
+            WidthRequest="30" />
+
+    </Grid>
+
+
+</ContentPage>

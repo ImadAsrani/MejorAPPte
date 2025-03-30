@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "En los exámenes me sudan las manos.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 2,
+    "question": "Cuando llevo rato haciendo el examen, siento molestias en el estómago y necesidad de defecar.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 3,
+    "question": "Al comenzar a leer el examen se me nubla la vista y no entiendo lo que leo.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 4,
+    "question": "Si llego 5 minutos tarde a un examen ya no entro, me escondo por el instituto o intento marcharme.",
+    "Tipo": "EVI"
+  },
+  {
+    "id": 5,
+    "question": "Las condiciones donde se realiza un examen (mucho ruido, calor, frío, sol…) me influyen aumentando mi nerviosismo.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 6,
+    "question": "Cuando termino un examen me duele la cabeza.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 7,
+    "question": "Cuando llevo un rato haciendo el examen, yo siento que me falta el aire, mucho calor y sensación de que me voy a desmayar.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 8,
+    "question": "Me siento nervioso/a si el profesor/a se para junto a mí y ya no puedo seguir contestando.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 9,
+    "question": "Me pongo nervioso/a al ver al profesor/a con los exámenes antes de entrar al aula.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 10,
+    "question": "En el examen siento rígidas las manos y/o los brazos.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 11,
+    "question": "Antes de entrar al examen siento un nudo en el estómago, que desaparece al comenzar a escribir.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 12,
+    "question": "Al comenzar el examen, nada más leer las preguntas lo entrego al profesor/a en blanco y vuelvo a mi sitio.",
+    "Tipo": "EVI"
+  },
+  {
+    "id": 13,
+    "question": "Después del examen lloro con facilidad, al pensar lo mal que lo he hecho aunque no sepa el resultado.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 14,
+    "question": "Mientras que estoy realizando el examen, pienso que lo estoy haciendo muy mal.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 15,
+    "question": "Me siento nervioso/a si los demás comienzan a entregar el examen antes que yo.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 16,
+    "question": "Pienso que el profesor/a me está observando constantemente.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 17,
+    "question": "Suelo morderme las uñas o el bolígrafo durante los exámenes.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 18,
+    "question": "Tengo muchas ganas de ir al cuarto de baño durante el examen.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 19,
+    "question": "No puedo quedarme quieto/a mientras hago el examen (muevo los pies, el bolígrafo, miro alrededor, miro la hora…).",
+    "Tipo": "COG"
+  },
+  {
+    "id": 20,
+    "question": "Me pongo malo/a y doy excusas para no hacer un examen.",
+    "Tipo": "EVI"
+  },
+  {
+    "id": 21,
+    "question": "Para mí supone una tranquilidad o alivio cuando por cualquier razón, se aplaza un examen.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 22,
+    "question": "Pienso que no voy a poder aprobar el examen, aunque haya estudiado.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 23,
+    "question": "Antes de hacer el examen pienso que no me acuerdo de nada y voy a suspenderlo.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 24,
+    "question": "No consigo dormir la noche anterior a un examen.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 25,
+    "question": "Me pone nervioso/a que el aula esté llena de gente.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 26,
+    "question": "He sentido mareos y ganas de vomitar en un examen.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 27,
+    "question": "Momentos antes de hacer el examen tengo la boca seca y me cuesta tragar.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 28,
+    "question": "Si me siento en las primeras filas para hacer el examen, aumenta mi nerviosismo.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 29,
+    "question": "Si el examen tiene un tiempo fijo para realizarse, aumenta mi nerviosismo y lo hago peor.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 30,
+    "question": "Me siento nervioso/a en aulas muy grandes.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 31,
+    "question": "Cuando estoy haciendo un examen el corazón me late muy deprisa.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 32,
+    "question": "Al entrar en el aula donde se hace el examen me tiemblan las piernas.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 33,
+    "question": "Me siento nervioso/a en las clases demasiado pequeñas.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 34,
+    "question": "Cuando un grupo de compañeros habla del examen antes de que venga el profesor me pongo más nervioso/a.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 35,
+    "question": "Al salir del examen, tengo la sensación de haberlo hecho muy mal.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 36,
+    "question": "Pienso que me voy a poner nervioso/a y se me va a olvidar todo.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 37,
+    "question": "Tardo mucho tiempo en decidirme por contestar la mayoría de las preguntas o por entregar el examen.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 38,
+    "question": "Un examen de entrevista personal.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 39,
+    "question": "Un examen oral en público.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 40,
+    "question": "Una exposición de un trabajo en clase.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 41,
+    "question": "Un examen escrito con preguntas alternativas.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 42,
+    "question": "Un examen escrito con preguntas abiertas.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 43,
+    "question": "Un examen escrito de desarrollo de un tema completo.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 44,
+    "question": "Un examen tipo oposición ante un tribunal.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 45,
+    "question": "Un examen de cultura general.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 46,
+    "question": "Un examen de cálculo o problemas matemáticos.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 47,
+    "question": "Un examen con pruebas físicas o gimnásticas.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 48,
+    "question": "Un examen práctico (escribir a máquina, manejar ordenador, realizar un proyecto, dibujo, etc.).",
+    "Tipo": "SIT"
+  }
+]

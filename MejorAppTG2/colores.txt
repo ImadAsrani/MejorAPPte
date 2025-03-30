@@ -1,0 +1,3 @@
+verde claro > #1cfca0
+verde intermedio > #00BF70
+verde oscuro > #307470

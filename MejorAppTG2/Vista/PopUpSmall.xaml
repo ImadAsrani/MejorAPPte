@@ -1,0 +1,245 @@
+<md:Popup
+    x:Class="MejorAppTG2.Vista.PopUpSmall"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MejorAppTG2.Localization"
+    xmlns:md="clr-namespace:Material.Components.Maui;assembly=Material.Components.Maui">
+
+    <Grid BackgroundColor="Transparent">
+        <Border
+            Background="White"
+            HeightRequest="370"
+            HorizontalOptions="CenterAndExpand"
+            Stroke="#00000000"
+            StrokeShape="{RoundRectangle CornerRadius=30}"
+            VerticalOptions="EndAndExpand"
+            WidthRequest="350">
+
+            <Border.Shadow>
+                <Shadow Opacity="0.7" Radius="10" />
+            </Border.Shadow>
+
+
+            <Grid Padding="20">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+
+                <Label
+                    Grid.Row="0"
+                    Padding="10,10,0,0"
+                    FontFamily="SF.OTF"
+                    FontSize="20"
+                    Text="{x:Static local:AppResources.SeleccionAvatar}" />
+
+
+
+
+                <Grid
+                    x:Name="gridAvatar"
+                    Grid.Row="1"
+                    ColumnSpacing="10"
+                    HorizontalOptions="Center"
+                    RowSpacing="10"
+                    VerticalOptions="Center">
+
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="80" />
+                        <RowDefinition Height="80" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="80" />
+                        <ColumnDefinition Width="80" />
+                        <ColumnDefinition Width="80" />
+                    </Grid.ColumnDefinitions>
+
+
+                    <Border
+                        x:Name="prfl1"
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        Background="White"
+                        HeightRequest="80"
+                        HorizontalOptions="End"
+                        Stroke="Black"
+                        StrokeShape="RoundRectangle 80,80,80,80"
+                        StrokeThickness="1.5">
+
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="funcionCambiarAvatarSeleccionado" />
+                        </Border.GestureRecognizers>
+
+                        <Image HeightRequest="75" Source="Assets/profile1.png" />
+
+                    </Border>
+
+
+
+                    <Border
+                        x:Name="prfl2"
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        Background="White"
+                        HeightRequest="80"
+                        HorizontalOptions="End"
+                        Stroke="Black"
+                        StrokeShape="RoundRectangle 80,80,80,80"
+                        StrokeThickness="1.5">
+
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="funcionCambiarAvatarSeleccionado" />
+                        </Border.GestureRecognizers>
+                        <Image HeightRequest="75" Source="Assets/profile2.png" />
+
+                    </Border>
+
+
+                    <Border
+                        x:Name="prfl3"
+                        Grid.Row="0"
+                        Grid.Column="2"
+                        Background="White"
+                        HeightRequest="80"
+                        HorizontalOptions="End"
+                        Stroke="Black"
+                        StrokeShape="RoundRectangle 80,80,80,80"
+                        StrokeThickness="1.5">
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="funcionCambiarAvatarSeleccionado" />
+                        </Border.GestureRecognizers>
+
+                        <Image HeightRequest="75" Source="Assets/profile3.png" />
+
+                    </Border>
+
+
+
+                    <Border
+                        x:Name="prfl4"
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        Background="White"
+                        HeightRequest="80"
+                        HorizontalOptions="End"
+                        Stroke="Black"
+                        StrokeShape="RoundRectangle 80,80,80,80"
+                        StrokeThickness="1.5">
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="funcionCambiarAvatarSeleccionado" />
+                        </Border.GestureRecognizers>
+
+                        <Image HeightRequest="75" Source="Assets/profile4.png" />
+
+                    </Border>
+
+
+
+                    <Border
+                        x:Name="prfl5"
+                        Grid.Row="2"
+                        Grid.Column="1"
+                        Background="White"
+                        HeightRequest="80"
+                        HorizontalOptions="End"
+                        Stroke="Black"
+                        StrokeShape="RoundRectangle 80,80,80,80"
+                        StrokeThickness="1.5">
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="funcionCambiarAvatarSeleccionado" />
+                        </Border.GestureRecognizers>
+
+                        <Image HeightRequest="75" Source="Assets/profile5.png" />
+
+                    </Border>
+
+
+                    <Border
+                        x:Name="prfl6"
+                        Grid.Row="1"
+                        Grid.Column="2"
+                        Background="White"
+                        HeightRequest="80"
+                        HorizontalOptions="End"
+                        Stroke="Black"
+                        StrokeShape="RoundRectangle 80,80,80,80"
+                        StrokeThickness="1.5">
+
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="funcionCambiarAvatarSeleccionado" />
+                        </Border.GestureRecognizers>
+
+                        <Image HeightRequest="75" Source="Assets/profile6.png" />
+
+                    </Border>
+
+
+                </Grid>
+
+
+
+
+
+
+
+
+
+
+
+                <Grid Grid.Row="2" HorizontalOptions="End">
+
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition Width="110" />
+                        <ColumnDefinition Width="110" />
+
+                    </Grid.ColumnDefinitions>
+
+
+                    <Button
+                        Grid.Column="0"
+                        Background="White"
+                        BorderColor="#00BF70"
+                        BorderWidth="2"
+                        Clicked="Button_Clicked"
+                        CornerRadius="100"
+                        FontFamily="SFL.OTF"
+                        HeightRequest="40"
+                        HorizontalOptions="End"
+                        Text="{x:Static local:AppResources.Cancelar}"
+                        TextColor="#00BF70"
+                        VerticalOptions="End"
+                        WidthRequest="95" />
+                    <Button
+                        Grid.Column="1"
+                        Background="#00BF70"
+                        Clicked="Button_Clicked_1"
+                        CornerRadius="100"
+                        FontFamily="SFL.OTF"
+                        HeightRequest="40"
+                        HorizontalOptions="End"
+                        Text="{x:Static local:AppResources.Confirmar}"
+                        VerticalOptions="End"
+                        WidthRequest="100" />
+
+
+                </Grid>
+
+
+            </Grid>
+
+
+
+
+        </Border>
+    </Grid>
+
+
+
+
+</md:Popup>

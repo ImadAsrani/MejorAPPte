@@ -1,0 +1,244 @@
+[
+  {
+    "id": 1,
+    "question": "Pendant les examens, mes mains transpirent.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 2,
+    "question": "Lorsque je passe un examen depuis un moment, je ressens des douleurs à l'estomac et le besoin de déféquer.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 3,
+    "question": "En commençant à lire l'examen, ma vue se brouille et je ne comprends pas ce que je lis.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 4,
+    "question": "Si j'arrive 5 minutes en retard à un examen, je n'entre pas, je me cache dans l'établissement ou j'essaie de partir.",
+    "Tipo": "EVI"
+  },
+  {
+    "id": 5,
+    "question": "Les conditions où se déroule un examen (beaucoup de bruit, chaleur, froid, soleil...) augmentent mon nervosisme.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 6,
+    "question": "Quand je termine un examen, j'ai mal à la tête.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 7,
+    "question": "Quand je passe un examen depuis un moment, je ressens un manque d'air, beaucoup de chaleur et l'impression que je vais m'évanouir.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 8,
+    "question": "Je me sens nerveux/se si le/la professeur(e) se tient près de moi et je ne peux plus continuer à répondre.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 9,
+    "question": "Je deviens nerveux/se en voyant le/la professeur(e) avec les examens avant d'entrer dans la salle.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 10,
+    "question": "Pendant l'examen, mes mains et/ou mes bras deviennent rigides.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 11,
+    "question": "Avant d'entrer à l'examen, je ressens un nœud à l'estomac qui disparaît en commençant à écrire.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 12,
+    "question": "En commençant l'examen, juste après avoir lu les questions, je le rends blanc au/à la professeur(e) et retourne à ma place.",
+    "Tipo": "EVI"
+  },
+  {
+    "id": 13,
+    "question": "Après l'examen, je pleure facilement en pensant à quel point je l'ai mal fait même si je ne connais pas le résultat.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 14,
+    "question": "Pendant que je passe l'examen, je pense que je fais tout mal.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 15,
+    "question": "Je me sens nerveux/se si les autres commencent à rendre leur examen avant moi.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 16,
+    "question": "Je pense que le/la professeur(e) m'observe constamment.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 17,
+    "question": "Je me ronge les ongles ou le stylo pendant les examens.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 18,
+    "question": "J'ai très envie d'aller aux toilettes pendant l'examen.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 19,
+    "question": "Je ne peux pas rester immobile pendant l'examen (je bouge les pieds, le stylo, je regarde autour, je regarde l'heure...).",
+    "Tipo": "COG"
+  },
+  {
+    "id": 20,
+    "question": "Je me rends malade et trouve des excuses pour ne pas passer un examen.",
+    "Tipo": "EVI"
+  },
+  {
+    "id": 21,
+    "question": "Pour moi, c'est un soulagement ou une tranquillité lorsqu'un examen est reporté pour une raison quelconque.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 22,
+    "question": "Je pense que je ne vais pas pouvoir réussir l'examen, même si j'ai étudié.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 23,
+    "question": "Avant de passer l'examen, je pense que je ne me souviens de rien et que je vais échouer.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 24,
+    "question": "Je n'arrive pas à dormir la nuit avant un examen.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 25,
+    "question": "Je deviens nerveux/se quand la salle est pleine de monde.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 26,
+    "question": "J'ai ressenti des étourdissements et des envies de vomir pendant un examen.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 27,
+    "question": "Juste avant l'examen, j'ai la bouche sèche et j'ai du mal à avaler.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 28,
+    "question": "Si je m'assois aux premières rangées pour passer l'examen, mon nervosisme augmente.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 29,
+    "question": "Si l'examen a un temps fixe pour être réalisé, mon nervosisme augmente et je le fais moins bien.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 30,
+    "question": "Je me sens nerveux/se dans les grandes salles.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 31,
+    "question": "Quand je passe un examen, mon cœur bat très vite.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 32,
+    "question": "En entrant dans la salle où se déroule l'examen, mes jambes tremblent.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 33,
+    "question": "Je me sens nerveux/se dans les salles de classe trop petites.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 34,
+    "question": "Quand un groupe de camarades parle de l'examen avant l'arrivée du/de la professeur(e), je deviens plus nerveux/se.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 35,
+    "question": "En sortant de l'examen, j'ai l'impression de l'avoir fait très mal.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 36,
+    "question": "Je pense que je vais devenir nerveux/se et tout oublier.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 37,
+    "question": "Je mets beaucoup de temps à décider de répondre à la plupart des questions ou à rendre l'examen.",
+    "Tipo": "COG"
+  },
+ 
+ 
+  {
+    "id": 38,
+    "question": "Un examen d'entretien personnel.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 39,
+    "question": "Un examen oral en public.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 40,
+    "question": "Une présentation d'un travail en classe.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 41,
+    "question": "Un examen écrit avec des questions alternatives.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 42,
+    "question": "Un examen écrit avec des questions ouvertes.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 43,
+    "question": "Un examen écrit sur le développement d'un sujet complet.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 44,
+    "question": "Un examen de type concours devant un jury.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 45,
+    "question": "Un examen de culture générale.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 46,
+    "question": "Un examen de calcul ou de problèmes mathématiques.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 47,
+    "question": "Un examen avec des épreuves physiques ou gymnastiques.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 48,
+    "question": "Un examen pratique (dactylographie, utilisation d'un ordinateur, réalisation d'un projet, dessin, etc.).",
+    "Tipo": "SIT"
+  }
+]

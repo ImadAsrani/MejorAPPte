@@ -1,0 +1,243 @@
+[
+  {
+    "id": 1,
+    "question": "During exams, my hands sweat.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 2,
+    "question": "When I've been taking the exam for a while, I feel stomach discomfort and the need to defecate.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 3,
+    "question": "When I start reading the exam, my vision blurs and I don't understand what I'm reading.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 4,
+    "question": "If I'm 5 minutes late for an exam, I don't go in, I hide in the school or try to leave.",
+    "Tipo": "EVI"
+  },
+  {
+    "id": 5,
+    "question": "The conditions where an exam takes place (too much noise, heat, cold, sunlight, etc.) affect me, increasing my nervousness.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 6,
+    "question": "When I finish an exam, I get a headache.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 7,
+    "question": "When I've been taking the exam for a while, I feel short of breath, very hot, and like I'm going to faint.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 8,
+    "question": "I feel nervous if the teacher stands next to me, and I can't keep answering.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 9,
+    "question": "I get nervous when I see the teacher with the exams before entering the classroom.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 10,
+    "question": "During the exam, I feel stiffness in my hands and/or arms.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 11,
+    "question": "Before entering the exam, I feel a knot in my stomach that disappears when I start writing.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 12,
+    "question": "At the beginning of the exam, as soon as I read the questions, I hand it in blank to the teacher and go back to my seat.",
+    "Tipo": "EVI"
+  },
+  {
+    "id": 13,
+    "question": "After the exam, I cry easily, thinking about how badly I did even though I don't know the result.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 14,
+    "question": "While taking the exam, I think I'm doing very badly.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 15,
+    "question": "I feel nervous if others start handing in the exam before I do.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 16,
+    "question": "I think the teacher is constantly watching me.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 17,
+    "question": "I tend to bite my nails or the pen during exams.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 18,
+    "question": "I have a strong urge to go to the bathroom during the exam.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 19,
+    "question": "I can't stay still while taking the exam (I move my feet, the pen, look around, check the time...).",
+    "Tipo": "COG"
+  },
+  {
+    "id": 20,
+    "question": "I get sick and come up with excuses not to take an exam.",
+    "Tipo": "EVI"
+  },
+  {
+    "id": 21,
+    "question": "For me, it's a relief or comfort when, for any reason, an exam is postponed.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 22,
+    "question": "I think I won't be able to pass the exam, even if I've studied.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 23,
+    "question": "Before taking the exam, I think I don't remember anything and I'm going to fail.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 24,
+    "question": "I can't sleep the night before an exam.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 25,
+    "question": "I get nervous if the classroom is full of people.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 26,
+    "question": "I've felt dizzy and like vomiting during an exam.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 27,
+    "question": "Moments before taking the exam, my mouth feels dry and I find it hard to swallow.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 28,
+    "question": "If I sit in the front rows for the exam, my nervousness increases.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 29,
+    "question": "If the exam has a fixed time limit, my nervousness increases, and I do worse.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 30,
+    "question": "I get nervous in very large classrooms.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 31,
+    "question": "When I'm taking an exam, my heart beats very fast.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 32,
+    "question": "When entering the classroom where the exam is held, my legs shake.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 33,
+    "question": "I feel nervous in very small classrooms.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 34,
+    "question": "When a group of classmates talks about the exam before the teacher arrives, I get more nervous.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 35,
+    "question": "After leaving the exam, I feel like I did very badly.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 36,
+    "question": "I think I'm going to get nervous and forget everything.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 37,
+    "question": "I take a long time to decide to answer most of the questions or to turn in the exam.",
+    "Tipo": "COG"
+  },
+  
+  {
+    "id": 38,
+    "question": "An interview-style exam.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 39,
+    "question": "An oral exam in public.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 40,
+    "question": "A class presentation of a project.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 41,
+    "question": "A written exam with multiple-choice questions.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 42,
+    "question": "A written exam with open-ended questions.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 43,
+    "question": "A written exam requiring the development of a complete topic.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 44,
+    "question": "A competitive exam in front of a panel.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 45,
+    "question": "A general knowledge exam.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 46,
+    "question": "A math test or problem-solving exam.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 47,
+    "question": "An exam with physical or gymnastic tests.",
+    "Tipo": "SIT"
+  },
+  {
+    "id": 48,
+    "question": "A practical exam (typing, using a computer, completing a project, drawing, etc.).",
+    "Tipo": "SIT"
+  }
+]

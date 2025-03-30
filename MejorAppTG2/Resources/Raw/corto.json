@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "question": "En los exámenes me sudan las manos o siento rigidez en manos y/o brazos.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 2,
+    "question": "Pienso que el profesor/a me está observando constantemente durante el examen.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 3,
+    "question": "Al comenzar a leer el examen se me nubla la vista y no entiendo lo que leo.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 4,
+    "question": "Mientras que estoy realizando el examen, pienso que lo estoy haciendo muy mal.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 5,
+    "question": "Si llego 5 minutos tarde a un examen ya no entro, me escondo por el instituto o intento marcharme.",
+    "Tipo": "EVI"
+  },
+  {
+    "id": 6,
+    "question": "Cuando un grupo de compañeros habla del examen antes de que venga el profesor me pongo más nervioso/a.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 7,
+    "question": "Para mí supone una tranquilidad o alivio cuando por cualquier razón, se aplaza un examen.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 8,
+    "question": "No consigo dormir la noche anterior a un examen.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 9,
+    "question": "Pienso que no voy a poder aprobar el examen, aunque haya estudiado.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 10,
+    "question": "Al comenzar el examen, nada más leer las preguntas, lo entrego en blanco al profesor y vuelvo a mi sitio.",
+    "Tipo": "EVI"
+  },
+  {
+    "id": 11,
+    "question": "Cuando estoy haciendo un examen el corazón me late muy deprisa.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 12,
+    "question": "Tras haber realizado un examen siento que lo he hecho fatal y pienso en desaparecer o hacerme daño.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 13,
+    "question": "Me resulta difícil o imposible ingerir alimentos antes de realizar un examen.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 14,
+    "question": "Me pongo malo/a y doy excusas para no hacer un examen.",
+    "Tipo": "EVI"
+  },
+  {
+    "id": 15,
+    "question": "En las horas/momentos previos al examen siento molestias en el estómago o se me descompone y tengo que ir al baño.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 16,
+    "question": "Tardo mucho tiempo en decidirme al contestar la mayoría de las preguntas o en entregar el examen.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 17,
+    "question": "Antes de entrar al examen hablo con mucha rapidez y me muevo más de lo habitual.",
+    "Tipo": "FIS"
+  },
+  {
+    "id": 18,
+    "question": "Durante los exámenes me cuesta concentrarme y a veces me bloqueo.",
+    "Tipo": "COG"
+  },
+  {
+    "id": 19,
+    "question": "Establezco un ritual previo al examen y si no puedo cumplirlo, busco alguna excusa y no entro al examen.",
+    "Tipo": "EVI"
+  },
+  {
+    "id": 20,
+    "question": "Mientras hago un examen no puedo quedarme quieto, suelo morderme las uñas o el bolígrafo…",
+    "Tipo": "FIS"
+  }
+]

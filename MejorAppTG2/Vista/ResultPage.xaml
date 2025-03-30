@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MejorAppTG2.Vista.ResultPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MejorAppTG2.Localization"
+    xmlns:maui="clr-namespace:epj.CircularGauge.Maui;assembly=epj.CircularGauge.Maui"
+    Title="ResultPage"
+    Shell.BackgroundColor="White"
+    Shell.NavBarHasShadow="True">
+
+
+    <VerticalStackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="FillAndExpand">
+
+
+        <Grid Padding="20,50,20,0" VerticalOptions="Fill">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="270" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="250" />
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+
+
+
+            <Image
+                x:Name="imgConsejos"
+                Grid.Row="0"
+                Source="f1.jpg" />
+
+
+
+
+            <!--  WebView para mostrar el video  -->
+            <WebView
+                x:Name="videoWebView"
+                Grid.Row="0"
+                Margin="10,0,10,0"
+                HorizontalOptions="FillAndExpand"
+                IsVisible="False"
+                Source="https://www.youtube.com/embed/jnOfzrDZYrA"
+                VerticalOptions="FillAndExpand" />
+
+
+
+            <!--  Carrusel para mostrar los tres videos  -->
+            <CarouselView
+                x:Name="carouselVideos"
+                Grid.Row="0"
+                BackgroundColor="Transparent"
+                HeightRequest="250"
+                HorizontalOptions="FillAndExpand"
+                IsVisible="False"
+                Loop="False"
+                PositionChanged="OnCarouselPositionChanged"
+                VerticalOptions="FillAndExpand">
+                <CarouselView.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>https://www.youtube.com/embed/F9R-uz9QZ58</x:String>
+                        <x:String>https://www.youtube.com/embed/ycSQVQqzk24</x:String>
+                        <x:String>https://www.youtube.com/embed/W5k__liBQzI</x:String>
+                    </x:Array>
+                </CarouselView.ItemsSource>
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid HorizontalOptions="FillAndExpand" RowDefinitions="Auto,Auto">
+                            <!--  Contenedor del video  -->
+                            <Border
+                                Grid.Row="0"
+                                Margin="10,0,10,0"
+                                Stroke="#00BF70"
+                                StrokeShape="RoundRectangle 30"
+                                StrokeThickness="2">
+                                <WebView
+                                    HeightRequest="220"
+                                    HorizontalOptions="FillAndExpand"
+                                    Source="{Binding .}"
+                                    VerticalOptions="FillAndExpand" />
+                                <Border.Shadow>
+                                    <Shadow
+                                        Brush="Black"
+                                        Opacity="0.4"
+                                        Radius="20"
+                                        Offset="0,4" />
+                                </Border.Shadow>
+                            </Border>
+                        </Grid>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+
+
+
+
+
+
+
+
+
+            <Label
+                x:Name="lblSuperior"
+                Grid.Row="1"
+                Padding="0,10,0,10"
+                FontAttributes="Bold"
+                FontFamily="SF.OTF"
+                FontSize="20"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center" />
+
+            <ScrollView Grid.Row="2" VerticalScrollBarVisibility="Never">
+
+                <Label
+                    x:Name="lblinferior"
+                    Margin="0,0,0,0"
+                    Padding="0,5,0,40"
+                    FontFamily="SF.OTF"
+                    FontSize="16"
+                    HorizontalTextAlignment="Center"
+                    TextColor="#307470" />
+
+
+            </ScrollView>
+
+            <Grid
+                Grid.Row="3"
+                HorizontalOptions="Center"
+                VerticalOptions="EndAndExpand">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="120" />
+                    <ColumnDefinition Width="50" />
+                </Grid.ColumnDefinitions>
+
+                <maui:CircularGauge
+                    x:Name="circuloProgreso"
+                    Grid.Column="1"
+                    Margin="0,35,0,0"
+                    BaseColor="#00000000"
+                    BaseStrokeColor="#00000000"
+                    BaseStrokeWidth="2.0"
+                    BaseWidth="1.0"
+                    GaugeColor="#00BF70"
+                    GaugeWidth="5.0"
+                    HeightRequest="125"
+                    HorizontalOptions="Center"
+                    NeedleColor="#00000000"
+                    ScaleColor="#00000000"
+                    ScaleDistance="4.0"
+                    ScaleLength="8.0"
+                    ScaleThickness="3.0"
+                    ScaleUnits="10"
+                    StartAngle="0"
+                    SweepAngle="0"
+                    WidthRequest="125" />
+
+
+                <Button
+                    x:Name="btnConsejos"
+                    Grid.Column="1"
+                    BackgroundColor="#00BF70"
+                    Clicked="cambiarConsejos"
+                    CornerRadius="60"
+                    FontAttributes="Bold"
+                    FontFamily="SF.OTF"
+                    FontSize="18"
+                    HeightRequest="65"
+                    HorizontalOptions="Center"
+                    Text="❯"
+                    TextColor="White"
+                    VerticalOptions="End"
+                    WidthRequest="65">
+
+                    <Button.Shadow>
+
+                        <Shadow
+                            Brush="#00BF70"
+                            Opacity="0.8"
+                            Radius="70"
+                            Offset="0,1" />
+                    </Button.Shadow>
+
+                </Button>
+
+
+                <Button
+                    x:Name="btnSalir2"
+                    Grid.Column="1"
+                    BackgroundColor="#ff1c1c"
+                    Clicked="btnSalir_Clicked"
+                    CornerRadius="60"
+                    FontAttributes="Bold"
+                    FontFamily="SF.OTF"
+                    FontSize="18"
+                    HeightRequest="65"
+                    HorizontalOptions="Center"
+                    IsVisible="False"
+                    Text="✕"
+                    TextColor="White"
+                    VerticalOptions="End"
+                    WidthRequest="65">
+
+                    <Button.Shadow>
+
+                        <Shadow
+                            Brush="#ff1c1c"
+                            Opacity="0.8"
+                            Radius="70"
+                            Offset="0,1" />
+                    </Button.Shadow>
+
+                </Button>
+
+                <Button
+                    x:Name="btnAnterior"
+                    Grid.Column="0"
+                    BackgroundColor="#00BF70"
+                    Clicked="btnAnterior_Clicked"
+                    CornerRadius="45"
+                    FontAttributes="Bold"
+                    FontFamily="SF.OTF"
+                    FontSize="14"
+                    HeightRequest="45"
+                    IsEnabled="True"
+                    Text="❮"
+                    TextColor="White"
+                    TranslationX="13"
+                    TranslationY="-10"
+                    VerticalOptions="End"
+                    WidthRequest="45">
+
+                    <Button.Shadow>
+
+                        <Shadow
+                            Brush="#00BF70"
+                            Opacity="0.8"
+                            Radius="20"
+                            Offset="0,1" />
+                    </Button.Shadow>
+
+                </Button>
+
+                <Button
+                    x:Name="btnSalir"
+                    Grid.Column="2"
+                    BackgroundColor="#ff1c1c"
+                    Clicked="btnSalir_Clicked"
+                    CornerRadius="60"
+                    FontAttributes="Bold"
+                    FontFamily="SF.OTF"
+                    FontSize="14"
+                    HeightRequest="45"
+                    Text="✕"
+                    TextColor="White"
+                    TranslationX="-14"
+                    TranslationY="-8"
+                    VerticalOptions="End"
+                    WidthRequest="45">
+
+                    <Button.Shadow>
+
+                        <Shadow
+                            Brush="#ff1c1c"
+                            Opacity="0.8"
+                            Radius="20"
+                            Offset="0,1" />
+                    </Button.Shadow>
+
+                </Button>
+
+
+            </Grid>
+
+
+
+
+        </Grid>
+
+
+
+
+
+
+
+
+
+
+    </VerticalStackLayout>
+
+
+</ContentPage>

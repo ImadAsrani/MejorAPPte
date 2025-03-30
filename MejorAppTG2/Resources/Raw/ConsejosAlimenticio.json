@@ -1,0 +1,27 @@
+﻿[
+    {
+        "id": 1,
+        "titulo": "Acepta la incertidumbre",
+        "descripcion": "Acepta que no sabes todo y que es normal sentir dudas ante un examen, esto te ayudará a no sobrecargarte."
+    },
+    {
+        "id": 2,
+        "titulo": "Piensa positivamente",
+        "descripcion": "Trata de mantener una actitud positiva y enfócate en todas las cosas que has aprendido en lugar de preocuparte por lo que no sabes."
+    },
+    {
+        "id": 3,
+        "titulo": "Identifica tus pensamientos tóxicos",
+        "descripcion": "Identifica estos pensamientos sobre los exámenes, como \"No voy a aprobar\", \"Soy un fracaso\", etc., te ayudará a cambiarlos."
+    },
+    {
+        "id": 4,
+        "titulo": "Bloquea y cambia tus pensamientos negativos",
+        "descripcion": "Ante un pensamiento negativo di “Para” o “Stop” y trata de ver la situación desde una perspectiva más objetiva, esto te ayudará a ver la realidad de la situación."
+    },
+    {
+        "id": 5,
+        "titulo": "Empodérate",
+        "descripcion": "Estas sencillas posturas corporales dan seguridad y confianza al instante. Ver vídeo https://www.youtube.com/shorts/jnOfzrDZYrA"
+    }
+]
