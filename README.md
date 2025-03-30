@@ -36,6 +36,7 @@
     - Diseño gráfico de eventos (logotipos, banners, imágenes, etc.).
     - Desarrollo de los eventos de forma moderna y atractiva dentro de la app.
     - Desarrollo de toda la parte de la navegación de la app.
+    - Desarollo de animaciones fluidas de navegación.
 
 - **[@Pumukiss](https://github.com/Pumukiss)**
   - **Backend**:
